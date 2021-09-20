@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w5SvhGI6NnujRDBQXt+iCCzFU3ewLBHwOcAa18kxQ5utbSBUYRPqnlb4ncTTUymd2Hvqb8PZV8btbxH27YOAIA==",
+  "success": true,
+  "projectFilePath": "C:\\Torneo\\TorneoFutbolistico.App\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Carlos\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

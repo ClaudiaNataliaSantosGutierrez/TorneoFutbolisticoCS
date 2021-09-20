@@ -1,0 +1,4 @@
+C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.csprojAssemblyReference.cache
+C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.AssemblyInfoInputs.cache
+C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.AssemblyInfo.cs
+C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.csproj.CoreCompileInputs.cache
