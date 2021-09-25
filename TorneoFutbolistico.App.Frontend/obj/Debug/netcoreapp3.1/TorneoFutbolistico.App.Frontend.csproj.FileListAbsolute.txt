@@ -80,3 +80,4 @@ C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\bin\Debug\netco
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\bin\Debug\netcoreapp3.1\TorneoFutbolistico.App.Persistencia.dll
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\bin\Debug\netcoreapp3.1\TorneoFutbolistico.App.Persistencia.pdb
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\bin\Debug\netcoreapp3.1\TorneoFutbolistico.App.Dominio.pdb
+C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Arbitros\Index.cshtml.g.cs

@@ -50,6 +50,8 @@ namespace TorneoFutbolistico.App.Persistencia
                 jugadorEncontrado.NumeroTelefono = jugador.NumeroTelefono;
                 jugadorEncontrado.Id_P = jugador.Id_P;
                 jugadorEncontrado.Numero = jugador.Numero;
+
+                jugadorEncontrado.Posicion = jugador.Posicion;
                 jugadorEncontrado.N_equipo = jugador.N_equipo;
                 //jugadorEncontrado.Equipo = jugador.Equipo;
                 _appContext.SaveChanges();
