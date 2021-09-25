@@ -6,22 +6,23 @@ namespace TorneoFutbolistico.App.Consola
 {
     class Program
     {
-        private static IRepositorioJugador _repoJugador = new RepositorioJugador(new Persistencia.AppContext());
+        //private static IRepositorioJugador _repoJugador = new RepositorioJugador(new Persistencia.AppContext());
+        private static IRepositorioJugador _repoJugador = new RepositorioJugador();
 
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World Entity Framework!");
-            AddJugador();
+            ///AddJugador();
             //BuscarPaciente(3);
-            //MostrarPacientes();
+            MostrarJugadores();
         }
 
         private static void AddJugador()
         {
             var jugador = new Jugador
             {
-                Nombre = "Pepito",
-                Apellidos = "Perez",
+                Nombre = "Natalia",
+                Apellidos = "Santos",
                 Documento = 300164521,
                 NumeroTelefono = "1247890",
                 
@@ -37,8 +38,18 @@ namespace TorneoFutbolistico.App.Consola
         //private static void MostrarJugadores()
         {
             //var paciente = _repoPaciente.GetPaciente(idPaciente);
-            var jugador = _repoJugador.GetJugador(idJugador);
-            Console.WriteLine(jugador.Nombre+" "+jugador.Apellidos);
+            ///var jugador = _repoJugador.GetJugador(idJugador);
+            ///Console.WriteLine(jugador.Nombre+" "+jugador.Apellidos);
+        }
+
+
+        private static void MostrarJugadores()
+        {
+            var Jugadores = _repoJugador.GetAllJugadores();
+            foreach (var jugador in Jugadores)
+            {
+                Console.WriteLine(jugador.Nombre+" "+jugador.Apellidos);
+            }
         }
     }
 }

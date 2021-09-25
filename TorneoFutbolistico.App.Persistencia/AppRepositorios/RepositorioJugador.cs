@@ -5,12 +5,13 @@ namespace TorneoFutbolistico.App.Persistencia
 {
     public class RepositorioJugador : IRepositorioJugador
     {
-        private readonly AppContext _appContext;
+        //private readonly AppContext _appContext;
+        private readonly AppContext _appContext = new AppContext();
 
-        public RepositorioJugador(AppContext appContext)
-        {
-            _appContext = appContext;
-        }
+        //public RepositorioJugador(AppContext appContext)
+        //{
+        //    _appContext = appContext;
+        //}
 
         public Jugador AddJugador(Jugador jugador)      
         {
