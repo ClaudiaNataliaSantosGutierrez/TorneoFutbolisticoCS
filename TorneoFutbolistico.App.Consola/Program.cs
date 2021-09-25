@@ -7,7 +7,8 @@ namespace TorneoFutbolistico.App.Consola
     class Program
     {
         ///private static IRepositorioJugador _repoJugador = new RepositorioJugador(new Persistencia.AppContext());
-        private static IRepositorioArbitro _repoArbitro = new RepositorioArbitro();
+        //private static IRepositorioArbitro _repoArbitro = new RepositorioArbitro();
+        private static IRepositorioDesempeño _repoDesempeño = new RepositorioDesempeño();
         //private static IRepositorioJugador _repoJugador = new RepositorioJugador();
 
        static void Main(string[] args)
@@ -18,11 +19,15 @@ namespace TorneoFutbolistico.App.Consola
             ////MostrarJugadores();
             //AddArbitro();
             //BuscarArbitro(3);
-            MostrarArbitros();
+            //MostrarArbitros();
+            AddDesempeño();
+            //BuscarDesempeño(3);
+            //MostrarDesempeño();
         }
 
         //private static void AddJugador()
-        private static void AddArbitro()
+        //private static void AddArbitro()
+        private static void AddDesempeño()
         {
             /*var jugador = new Jugador
             {
@@ -38,7 +43,7 @@ namespace TorneoFutbolistico.App.Consola
             };
             _repoJugador.AddJugador(jugador);*/
 
-            var arbitro = new Arbitro
+            /*var arbitro = new Arbitro
             {
                 Nombre = "Armando",
                 Apellidos = "Juarez",
@@ -48,11 +53,25 @@ namespace TorneoFutbolistico.App.Consola
                 Id_A = 1242,
                 Colegio = "Futbol Soccer College"
             };
-            _repoArbitro.AddArbitro(arbitro);
+            _repoArbitro.AddArbitro(arbitro);*/
+
+            var desempeño = new Desempeño
+            {
+                //Id = 4521,
+                PartidosJugados = 2,
+                PartidosGanados = 2,
+                PartidosEmpatados = 1,
+                PartidosPerdidos = 3,
+                GolesFavor = 6,
+                GolesContra = 2,
+                Puntos = 40
+            };
+            _repoDesempeño.AddDesempeño(desempeño);
         }
 
         //private static void BuscarJugador(int idJugador)
-        private static void BuscarArbitro(int idArbitro)
+        //private static void BuscarArbitro(int idArbitro)
+        private static void BuscarDesempeño(int idDesempeño)
         //private static void MostrarJugadores()
         {
             //var paciente = _repoPaciente.GetPaciente(idPaciente);
@@ -62,7 +81,8 @@ namespace TorneoFutbolistico.App.Consola
 
 
         //private static void MostrarJugadores()
-        private static void MostrarArbitros()
+        //private static void MostrarArbitros()
+        private static void MostrarDesempeños()
         {
             /*var Jugadores = _repoJugador.GetAllJugadores();
             foreach (var jugador in Jugadores)
@@ -70,10 +90,16 @@ namespace TorneoFutbolistico.App.Consola
                 Console.WriteLine(jugador.Nombre+" "+jugador.Apellidos);
             }*/
 
-            var Arbitros = _repoArbitro.GetAllArbitros();
+            /*var Arbitros = _repoArbitro.GetAllArbitros();
             foreach (var arbitro in Arbitros)
             {
                 Console.WriteLine(arbitro.Nombre+" "+arbitro.Apellidos);
+            }*/
+
+            var Desempeños = _repoDesempeño.GetAllDesempeños();
+            foreach (var desempeño in Desempeños)
+            {
+                Console.WriteLine(desempeño.PartidosGanados +" "+desempeño.Puntos);
             }
         }
 

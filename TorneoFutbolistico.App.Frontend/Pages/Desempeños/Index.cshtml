@@ -1,0 +1,24 @@
+﻿@page
+@model TorneoFutbolistico.App.Frontend.Pages.Desempeños.IndexModel
+@{
+}
+<h1>Listado de Desempeños</h1>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">PartidosJugados</th>
+      <th scope="col">PartidosGanados</th>
+      <th scope="col">Puntos</th>
+    </tr>
+  </thead>
+  <tbody>
+      @foreach (var Desempeño in Model.Desempeños)
+      {
+          <tr>
+              <td>@Desempeño.PartidosJugados</td>
+              <td>@Desempeño.PartidosGanados</td>
+              <td>@Desempeño.Puntos</td>
+          </tr>
+      }
+  </tbody>
+</table>
