@@ -1,0 +1,24 @@
+﻿@page
+@model TorneoFutbolistico.App.Frontend.Pages.NovedadPartido.IndexModel
+@{
+}
+<h1>Lista de NovedadesPartido</h1>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Novedad</th>
+      <th scope="col">JugadorInvolucrado</th>
+      <th scope="col">TarjetasAmarillas</th>
+    </tr>
+  </thead>
+  <tbody>
+      @foreach (var NovedadPartido in Model.NovedadPartidos)
+      {
+          <tr>
+              <td>@NovedadPartido.Novedad</td>
+              <td>@NovedadPartido.JugadorInvolucrado</td>
+              <td>@NovedadPartido.TarjetasAmarillas</td>
+          </tr>
+      }
+  </tbody>
+</table>

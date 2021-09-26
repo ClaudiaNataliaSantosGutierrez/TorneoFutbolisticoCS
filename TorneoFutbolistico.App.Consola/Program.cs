@@ -8,7 +8,8 @@ namespace TorneoFutbolistico.App.Consola
     {
         ///private static IRepositorioJugador _repoJugador = new RepositorioJugador(new Persistencia.AppContext());
         //private static IRepositorioArbitro _repoArbitro = new RepositorioArbitro();
-        private static IRepositorioDesempeño _repoDesempeño = new RepositorioDesempeño();
+        //private static IRepositorioDesempeño _repoDesempeño = new RepositorioDesempeño();
+        private static IRepositorioNovedadPartido _repoNovedadPartido = new RepositorioNovedadPartido();
         //private static IRepositorioJugador _repoJugador = new RepositorioJugador();
 
        static void Main(string[] args)
@@ -20,14 +21,18 @@ namespace TorneoFutbolistico.App.Consola
             //AddArbitro();
             //BuscarArbitro(3);
             //MostrarArbitros();
-            AddDesempeño();
+            //AddDesempeño();
             //BuscarDesempeño(3);
             //MostrarDesempeño();
+            AddNovedadPartido();
+            //BuscarNovedadPartido(3);
+            //MostrarNovedadPartido();
         }
 
         //private static void AddJugador()
         //private static void AddArbitro()
-        private static void AddDesempeño()
+        //private static void AddDesempeño()
+        private static void AddNovedadPartido()
         {
             /*var jugador = new Jugador
             {
@@ -55,7 +60,7 @@ namespace TorneoFutbolistico.App.Consola
             };
             _repoArbitro.AddArbitro(arbitro);*/
 
-            var desempeño = new Desempeño
+            /*var desempeño = new Desempeño
             {
                 //Id = 4521,
                 PartidosJugados = 2,
@@ -66,12 +71,24 @@ namespace TorneoFutbolistico.App.Consola
                 GolesContra = 2,
                 Puntos = 40
             };
-            _repoDesempeño.AddDesempeño(desempeño);
+            _repoDesempeño.AddDesempeño(desempeño);*/
+
+            var novedadPartido = new NovedadPartido
+            {
+                Novedad = "Golpe a otro jugador",
+                JugadorInvolucrado = "Pepe Perez",
+                TarjetasAmarillas = 2,
+                TarjetasRojas = 1,
+                Goles = 3,
+                Minuto = 20
+            };
+            _repoNovedadPartido.AddNovedadPartido(novedadPartido);
         }
 
         //private static void BuscarJugador(int idJugador)
         //private static void BuscarArbitro(int idArbitro)
-        private static void BuscarDesempeño(int idDesempeño)
+        //private static void BuscarDesempeño(int idDesempeño)
+        private static void BuscarNovedadPartido(int idNovedadPartido)
         //private static void MostrarJugadores()
         {
             //var paciente = _repoPaciente.GetPaciente(idPaciente);
@@ -82,7 +99,8 @@ namespace TorneoFutbolistico.App.Consola
 
         //private static void MostrarJugadores()
         //private static void MostrarArbitros()
-        private static void MostrarDesempeños()
+        //private static void MostrarDesempeños()
+        private static void MostrarNovedadPartidos()
         {
             /*var Jugadores = _repoJugador.GetAllJugadores();
             foreach (var jugador in Jugadores)
@@ -96,45 +114,18 @@ namespace TorneoFutbolistico.App.Consola
                 Console.WriteLine(arbitro.Nombre+" "+arbitro.Apellidos);
             }*/
 
-            var Desempeños = _repoDesempeño.GetAllDesempeños();
+            /*var Desempeños = _repoDesempeño.GetAllDesempeños();
             foreach (var desempeño in Desempeños)
             {
                 Console.WriteLine(desempeño.PartidosGanados +" "+desempeño.Puntos);
+            }*/
+
+            var NovedadPartidos = _repoNovedadPartido.GetAllNovedadPartidos();
+            foreach (var novedadPartido in NovedadPartidos)
+            {
+                Console.WriteLine(novedadPartido.Novedad +" "+novedadPartido.JugadorInvolucrado);
             }
         }
-
-
-
-/*       {
-            Console.WriteLine("Hello World Entity Framework!");
-            AddArbitro();
-            //BuscarArbitro(3);
-            //MostrarArbitros();
-        }
-
-        private static void AddArbitro()
-       {
-            var arbitro = new Arbitro
-            {
-                Nombre = "Denis",
-                Apellidos = "Guzman",
-                Documento = 3001647521,
-                NumeroTelefono = "1241555",
-                
-                Id_A = 1242,
-                Colegio = "Futbol Soccer College"
-            };
-            _repoArbitro.AddArbitro(arbitro);
-        }
-
-/*        private static void MostrarArbitros()
-        {
-            var Arbitros = _repoArbitro.GetAllArbitros();
-            foreach (var arbitro in Arbitros)
-            {
-                Console.WriteLine(arbitro.Nombre+" "+arbitro.Apellidos);
-            }
-        }*/
     }
 }
 
