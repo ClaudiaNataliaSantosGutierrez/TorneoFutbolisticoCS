@@ -9,7 +9,8 @@ namespace TorneoFutbolistico.App.Consola
         ///private static IRepositorioJugador _repoJugador = new RepositorioJugador(new Persistencia.AppContext());
         //private static IRepositorioArbitro _repoArbitro = new RepositorioArbitro();
         //private static IRepositorioDesempeño _repoDesempeño = new RepositorioDesempeño();
-        private static IRepositorioNovedadPartido _repoNovedadPartido = new RepositorioNovedadPartido();
+        //private static IRepositorioNovedadPartido _repoNovedadPartido = new RepositorioNovedadPartido();
+        private static IRepositorioPartido _repoPartido = new RepositorioPartido();
         //private static IRepositorioJugador _repoJugador = new RepositorioJugador();
 
        static void Main(string[] args)
@@ -24,15 +25,19 @@ namespace TorneoFutbolistico.App.Consola
             //AddDesempeño();
             //BuscarDesempeño(3);
             //MostrarDesempeño();
-            AddNovedadPartido();
+            //AddNovedadPartido();
             //BuscarNovedadPartido(3);
             //MostrarNovedadPartido();
+            AddPartido();
+            //BuscarPartido(3);
+            //MostrarPartido();
         }
 
         //private static void AddJugador()
         //private static void AddArbitro()
         //private static void AddDesempeño()
-        private static void AddNovedadPartido()
+        //private static void AddNovedadPartido()
+        private static void AddPartido()
         {
             /*var jugador = new Jugador
             {
@@ -73,7 +78,7 @@ namespace TorneoFutbolistico.App.Consola
             };
             _repoDesempeño.AddDesempeño(desempeño);*/
 
-            var novedadPartido = new NovedadPartido
+            /*var novedadPartido = new NovedadPartido
             {
                 Novedad = "Golpe a otro jugador",
                 JugadorInvolucrado = "Pepe Perez",
@@ -82,13 +87,26 @@ namespace TorneoFutbolistico.App.Consola
                 Goles = 3,
                 Minuto = 20
             };
-            _repoNovedadPartido.AddNovedadPartido(novedadPartido);
+            _repoNovedadPartido.AddNovedadPartido(novedadPartido);*/
+
+            var partido = new Partido
+            {
+                //Id = 4521,
+                FechaHora = "Septiembre 15 de 2021",
+                EquipoLocal = "Millonarios",
+                MarcadorLocal = 2,
+                EquipoVisitante = "Quindio",
+                MarcadorVisitante  = 1
+                
+            };
+            _repoPartido.AddPartido(partido);
         }
 
         //private static void BuscarJugador(int idJugador)
         //private static void BuscarArbitro(int idArbitro)
         //private static void BuscarDesempeño(int idDesempeño)
-        private static void BuscarNovedadPartido(int idNovedadPartido)
+        //private static void BuscarNovedadPartido(int idNovedadPartido)
+        private static void BuscarPartido(int idPartido)
         //private static void MostrarJugadores()
         {
             //var paciente = _repoPaciente.GetPaciente(idPaciente);
@@ -100,7 +118,8 @@ namespace TorneoFutbolistico.App.Consola
         //private static void MostrarJugadores()
         //private static void MostrarArbitros()
         //private static void MostrarDesempeños()
-        private static void MostrarNovedadPartidos()
+        //private static void MostrarNovedadPartidos()
+        private static void MostrarPartidos()
         {
             /*var Jugadores = _repoJugador.GetAllJugadores();
             foreach (var jugador in Jugadores)
@@ -120,10 +139,16 @@ namespace TorneoFutbolistico.App.Consola
                 Console.WriteLine(desempeño.PartidosGanados +" "+desempeño.Puntos);
             }*/
 
-            var NovedadPartidos = _repoNovedadPartido.GetAllNovedadPartidos();
+            /*var NovedadPartidos = _repoNovedadPartido.GetAllNovedadPartidos();
             foreach (var novedadPartido in NovedadPartidos)
             {
                 Console.WriteLine(novedadPartido.Novedad +" "+novedadPartido.JugadorInvolucrado);
+            }*/
+
+            var Partidos = _repoPartido.GetAllPartidos();
+            foreach (var partido in Partidos)
+            {
+                Console.WriteLine(partido.EquipoLocal +" "+partido.EquipoVisitante);
             }
         }
     }

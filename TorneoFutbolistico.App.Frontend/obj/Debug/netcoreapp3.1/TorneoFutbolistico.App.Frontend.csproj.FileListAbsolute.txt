@@ -82,3 +82,5 @@ C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\bin\Debug\netco
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\bin\Debug\netcoreapp3.1\TorneoFutbolistico.App.Dominio.pdb
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Arbitros\Index.cshtml.g.cs
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Desempeños\Index.cshtml.g.cs
+C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\NovedadPartidos\Index.cshtml.g.cs
+C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Partidos\Index.cshtml.g.cs
