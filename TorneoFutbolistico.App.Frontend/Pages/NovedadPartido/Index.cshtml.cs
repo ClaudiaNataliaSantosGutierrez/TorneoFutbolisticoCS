@@ -11,7 +11,7 @@ namespace TorneoFutbolistico.App.Frontend.Pages.NovedadPartido
 {
     public class IndexModel : PageModel
     {
-        private readonly IRepositorioNovedadPartido _repoNovedadPartido;
+        /*private readonly IRepositorioNovedadPartido _repoNovedadPartido;
         public IEnumerable<NovedadPartido> NovedadPartidos {get; set;}
         public IndexModel(IRepositorioNovedadPartido repoNovedadPartido)
         {
@@ -20,6 +20,6 @@ namespace TorneoFutbolistico.App.Frontend.Pages.NovedadPartido
         public void OnGet()
         {
             NovedadPartidos = _repoNovedadPartido.GetAllNovedadPartidos();
-        }
+        }*/
     }
 }

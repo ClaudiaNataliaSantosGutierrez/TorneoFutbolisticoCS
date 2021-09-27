@@ -10,7 +10,11 @@ namespace TorneoFutbolistico.App.Consola
         //private static IRepositorioArbitro _repoArbitro = new RepositorioArbitro();
         //private static IRepositorioDesempeño _repoDesempeño = new RepositorioDesempeño();
         //private static IRepositorioNovedadPartido _repoNovedadPartido = new RepositorioNovedadPartido();
-        private static IRepositorioPartido _repoPartido = new RepositorioPartido();
+        //private static IRepositorioPartido _repoPartido = new RepositorioPartido();
+        //private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio();
+        //private static IRepositorioEstadio _repoEstadio= new RepositorioEstadio();
+        //private static IRepositorioEquipo _repoEquipo= new RepositorioEquipo();
+        private static IRepositorioDirectorTecnico _repoDirectorTecnico= new RepositorioDirectorTecnico();
         //private static IRepositorioJugador _repoJugador = new RepositorioJugador();
 
        static void Main(string[] args)
@@ -28,16 +32,32 @@ namespace TorneoFutbolistico.App.Consola
             //AddNovedadPartido();
             //BuscarNovedadPartido(3);
             //MostrarNovedadPartido();
-            AddPartido();
+            //AddPartido();
             //BuscarPartido(3);
             //MostrarPartido();
+            //AddMunicipio();
+            //BuscarMunicipio(3);
+            //MostrarMunicipio();
+            //AddEstadio();
+            //BuscarEstadio(3);
+            //MostrarEstadio();
+            //AddEquipo();
+            //BuscarEquipo(3);
+            //MostrarEquipo();
+            AddDirectorTecnico();
+            //BuscarDirectorTecnico(3);
+            //MostrarDirectorTecnico();
         }
 
         //private static void AddJugador()
         //private static void AddArbitro()
         //private static void AddDesempeño()
         //private static void AddNovedadPartido()
-        private static void AddPartido()
+        //private static void AddPartido()
+        //private static void AddMunicipio()
+        //private static void AddEstadio()
+        //private static void AddEquipo()
+        private static void AddDirectorTecnico()
         {
             /*var jugador = new Jugador
             {
@@ -89,7 +109,7 @@ namespace TorneoFutbolistico.App.Consola
             };
             _repoNovedadPartido.AddNovedadPartido(novedadPartido);*/
 
-            var partido = new Partido
+            /*var partido = new Partido
             {
                 //Id = 4521,
                 FechaHora = "Septiembre 15 de 2021",
@@ -99,14 +119,50 @@ namespace TorneoFutbolistico.App.Consola
                 MarcadorVisitante  = 1
                 
             };
-            _repoPartido.AddPartido(partido);
+            _repoPartido.AddPartido(partido);*/
+
+            /*var municipio = new Municipio
+            {
+                //Id = 1020,
+                NombreMunicipio = "Bolivar",
+            };
+            _repoMunicipio.AddMunicipio(municipio);*/
+
+            /*var estadio = new Estadio
+            {
+                //Id = 1099,
+                NombreEstadio = "Coliseo Roma",
+                Direccion = "calle 130",
+            };
+            _repoEstadio.AddEstadio(estadio);*/
+
+            /*var equipo = new Equipo
+            {
+                //Id = 1099,
+                NombreEquipo = "MVP",
+            };
+            _repoEquipo.AddEquipo(equipo);*/
+
+            var directorTecnico = new DirectorTecnico
+            {
+                Nombre = "Luis",
+                Apellidos = "Paez",
+                Documento = 38404851,
+                NumeroTelefono = "1212036",
+                Id_DS = 9845,
+            };
+            _repoDirectorTecnico.AddDirectorTecnico(directorTecnico);
         }
 
         //private static void BuscarJugador(int idJugador)
         //private static void BuscarArbitro(int idArbitro)
         //private static void BuscarDesempeño(int idDesempeño)
         //private static void BuscarNovedadPartido(int idNovedadPartido)
-        private static void BuscarPartido(int idPartido)
+        //private static void BuscarPartido(int idPartido)
+        //private static void BuscarMunicipio(int idMunicipio)
+        //private static void BuscarEstadio(int idEstadio)
+        //private static void BuscarEquipo(int idEquipo)
+        private static void BuscarDirectorTecnico(int idDirectorTecnico)
         //private static void MostrarJugadores()
         {
             //var paciente = _repoPaciente.GetPaciente(idPaciente);
@@ -119,7 +175,11 @@ namespace TorneoFutbolistico.App.Consola
         //private static void MostrarArbitros()
         //private static void MostrarDesempeños()
         //private static void MostrarNovedadPartidos()
-        private static void MostrarPartidos()
+        //private static void MostrarPartidos()
+        //private static void MostrarMunicipios()
+        //private static void MostrarEstadios()
+        //private static void MostrarEquipos()
+        private static void MostrarDirectoresTecnicos()
         {
             /*var Jugadores = _repoJugador.GetAllJugadores();
             foreach (var jugador in Jugadores)
@@ -145,10 +205,34 @@ namespace TorneoFutbolistico.App.Consola
                 Console.WriteLine(novedadPartido.Novedad +" "+novedadPartido.JugadorInvolucrado);
             }*/
 
-            var Partidos = _repoPartido.GetAllPartidos();
+            /*var Partidos = _repoPartido.GetAllPartidos();
             foreach (var partido in Partidos)
             {
                 Console.WriteLine(partido.EquipoLocal +" "+partido.EquipoVisitante);
+            }*/
+
+            /*var Municipios = _repoMunicipio.GetAllMunicipios();
+            foreach (var municipio in Municipios)
+            {
+                Console.WriteLine(municipio.NombreMunicipio);
+            }*/
+
+            /*var Estadios = _repoEstadio.GetAllEstadios();
+            foreach (var estadio in Estadios)
+            {
+                Console.WriteLine(estadio.NombreEstadio+" "+estadio.Direccion);
+            }*/
+
+            /*var Equipos = _repoEquipo.GetAllEquipos();
+            foreach (var equipo in Equipos)
+            {
+                Console.WriteLine(equipo.NombreEquipo);
+            }*/
+
+            var DirectoresTecnicos = _repoDirectorTecnico.GetAllDirectoresTecnicos();
+            foreach (var directorTecnico in DirectoresTecnicos)
+            {
+                Console.WriteLine(directorTecnico.Nombre+" "+directorTecnico.Apellidos);
             }
         }
     }
