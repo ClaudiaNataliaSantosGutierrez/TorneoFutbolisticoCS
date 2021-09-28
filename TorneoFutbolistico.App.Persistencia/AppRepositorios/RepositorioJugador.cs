@@ -41,7 +41,7 @@ namespace TorneoFutbolistico.App.Persistencia
 
         public Jugador UpdateJugador(Jugador jugador)
         {
-            var jugadorEncontrado = _appContext.Jugadores.Find(jugador.id);    //jugador.Id
+            var jugadorEncontrado = _appContext.Jugadores.Find(jugador.id);    //jugador.id
             if (jugadorEncontrado != null)
             {
                 jugadorEncontrado.Nombre = jugador.Nombre;

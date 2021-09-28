@@ -8,16 +8,22 @@
     <tr>
       <th scope="col">Nombre</th>
       <th scope="col">Apellidos</th>
-      <th scope="col">Telefono</th>
+      <th scope="col">NumeroTelefono</th>
+      <th scope="col">Acciones</th>
     </tr>
   </thead>
   <tbody>
-      @foreach (var Jugador in Model.Jugadores)
+      @foreach (var Jugador in Model.Jugadores)  
       {
           <tr>
-              <td>@Jugador.Nombre</td>
-              <td>@Jugador.Apellidos</td>
-              <td>@Jugador.NumeroTelefono</td>
+              <td>@Jugador.Nombre</td>  
+              <td>@Jugador.Apellidos</td>  
+              <td>@Jugador.NumeroTelefono</td>   
+              <td>
+                <a class="btn btn-primary" asp-page="./Details" asp-route-id="@Jugador.id">
+                  Detalle
+                </a>
+              </td>
           </tr>
       }
   </tbody>

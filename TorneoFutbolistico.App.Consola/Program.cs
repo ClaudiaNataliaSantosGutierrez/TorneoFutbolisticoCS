@@ -14,13 +14,13 @@ namespace TorneoFutbolistico.App.Consola
         //private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio();
         //private static IRepositorioEstadio _repoEstadio= new RepositorioEstadio();
         //private static IRepositorioEquipo _repoEquipo= new RepositorioEquipo();
-        private static IRepositorioDirectorTecnico _repoDirectorTecnico= new RepositorioDirectorTecnico();
-        //private static IRepositorioJugador _repoJugador = new RepositorioJugador();
+        //private static IRepositorioDirectorTecnico _repoDirectorTecnico= new RepositorioDirectorTecnico();
+        private static IRepositorioJugador _repoJugador = new RepositorioJugador();
 
        static void Main(string[] args)
        {
             Console.WriteLine("Hello World Entity Framework!");
-            ///AddJugador();
+            AddJugador();
             //BuscarPaciente(3);
             ////MostrarJugadores();
             //AddArbitro();
@@ -44,12 +44,12 @@ namespace TorneoFutbolistico.App.Consola
             //AddEquipo();
             //BuscarEquipo(3);
             //MostrarEquipo();
-            AddDirectorTecnico();
+            //AddDirectorTecnico();
             //BuscarDirectorTecnico(3);
             //MostrarDirectorTecnico();
         }
 
-        //private static void AddJugador()
+        private static void AddJugador()
         //private static void AddArbitro()
         //private static void AddDesempeño()
         //private static void AddNovedadPartido()
@@ -57,21 +57,20 @@ namespace TorneoFutbolistico.App.Consola
         //private static void AddMunicipio()
         //private static void AddEstadio()
         //private static void AddEquipo()
-        private static void AddDirectorTecnico()
+        //private static void AddDirectorTecnico()
         {
-            /*var jugador = new Jugador
+            var jugador = new Jugador
             {
-                Nombre = "Natalia",
-                Apellidos = "Santos",
-                Documento = 300164521,
-                NumeroTelefono = "1247890",
-                
-                Id_P = 1202,
-                Numero = 5,
+                Nombre = "Daniel",
+                Apellidos = "Aguirre",
+                Documento = 3525521,
+                NumeroTelefono = "1859690",
+                Id_P = 2562,
+                Numero = 3,
                 Posicion = "Delantero",
-                N_equipo = 1
+                N_equipo = 3
             };
-            _repoJugador.AddJugador(jugador);*/
+            _repoJugador.AddJugador(jugador);
 
             /*var arbitro = new Arbitro
             {
@@ -143,7 +142,7 @@ namespace TorneoFutbolistico.App.Consola
             };
             _repoEquipo.AddEquipo(equipo);*/
 
-            var directorTecnico = new DirectorTecnico
+            /*var directorTecnico = new DirectorTecnico
             {
                 Nombre = "Luis",
                 Apellidos = "Paez",
@@ -151,10 +150,10 @@ namespace TorneoFutbolistico.App.Consola
                 NumeroTelefono = "1212036",
                 Id_DS = 9845,
             };
-            _repoDirectorTecnico.AddDirectorTecnico(directorTecnico);
+            _repoDirectorTecnico.AddDirectorTecnico(directorTecnico);*/
         }
 
-        //private static void BuscarJugador(int idJugador)
+        private static void BuscarJugador(int idJugador)
         //private static void BuscarArbitro(int idArbitro)
         //private static void BuscarDesempeño(int idDesempeño)
         //private static void BuscarNovedadPartido(int idNovedadPartido)
@@ -162,7 +161,7 @@ namespace TorneoFutbolistico.App.Consola
         //private static void BuscarMunicipio(int idMunicipio)
         //private static void BuscarEstadio(int idEstadio)
         //private static void BuscarEquipo(int idEquipo)
-        private static void BuscarDirectorTecnico(int idDirectorTecnico)
+        //private static void BuscarDirectorTecnico(int idDirectorTecnico)
         //private static void MostrarJugadores()
         {
             //var paciente = _repoPaciente.GetPaciente(idPaciente);
@@ -171,7 +170,7 @@ namespace TorneoFutbolistico.App.Consola
         }
 
 
-        //private static void MostrarJugadores()
+        private static void MostrarJugadores()
         //private static void MostrarArbitros()
         //private static void MostrarDesempeños()
         //private static void MostrarNovedadPartidos()
@@ -179,13 +178,13 @@ namespace TorneoFutbolistico.App.Consola
         //private static void MostrarMunicipios()
         //private static void MostrarEstadios()
         //private static void MostrarEquipos()
-        private static void MostrarDirectoresTecnicos()
+        //private static void MostrarDirectoresTecnicos()
         {
-            /*var Jugadores = _repoJugador.GetAllJugadores();
+            var Jugadores = _repoJugador.GetAllJugadores();
             foreach (var jugador in Jugadores)
             {
                 Console.WriteLine(jugador.Nombre+" "+jugador.Apellidos);
-            }*/
+            }
 
             /*var Arbitros = _repoArbitro.GetAllArbitros();
             foreach (var arbitro in Arbitros)
@@ -229,11 +228,11 @@ namespace TorneoFutbolistico.App.Consola
                 Console.WriteLine(equipo.NombreEquipo);
             }*/
 
-            var DirectoresTecnicos = _repoDirectorTecnico.GetAllDirectoresTecnicos();
+            /*var DirectoresTecnicos = _repoDirectorTecnico.GetAllDirectoresTecnicos();
             foreach (var directorTecnico in DirectoresTecnicos)
             {
                 Console.WriteLine(directorTecnico.Nombre+" "+directorTecnico.Apellidos);
-            }
+            }*/
         }
     }
 }
