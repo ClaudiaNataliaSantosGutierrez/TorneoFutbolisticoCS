@@ -90,3 +90,4 @@ C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netco
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\DirectoresTecnicos\Index.cshtml.g.cs
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Jugadores\Details.cshtml.g.cs
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Arbitros\Details.cshtml.g.cs
+C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Desempeños\Details.cshtml.g.cs

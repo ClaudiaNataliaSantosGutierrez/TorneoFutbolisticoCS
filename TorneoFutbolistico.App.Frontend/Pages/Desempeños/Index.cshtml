@@ -9,6 +9,7 @@
       <th scope="col">PartidosJugados</th>
       <th scope="col">PartidosGanados</th>
       <th scope="col">Puntos</th>
+      <th scope="col">Acciones</th>
     </tr>
   </thead>
   <tbody>
@@ -18,6 +19,11 @@
               <td>@Desempeño.PartidosJugados</td>
               <td>@Desempeño.PartidosGanados</td>
               <td>@Desempeño.Puntos</td>
+              <td>
+                <a class="btn btn-primary" asp-page="./Details" asp-route-Id="@Desempeño.Id">
+                  Detalle
+                </a>
+              </td>
           </tr>
       }
   </tbody>
