@@ -8,6 +8,7 @@ table class="table">
     <tr>
       <th scope="col">NombreEstadio</th>
       <th scope="col">Direccion</th>
+      <th scope="col">Acciones</th>
     </tr>
   </thead>
   <tbody>
@@ -16,6 +17,11 @@ table class="table">
           <tr>
               <td>@Estadio.NombreEstadio</td>
               <td>@Estadio.Direccion</td>
+              <td>
+                <a class="btn btn-primary" asp-page="./Details" asp-route-Id="@Estadio.Id">
+                  Detalle
+                </a>
+              </td>
           </tr>
       }
   </tbody>
