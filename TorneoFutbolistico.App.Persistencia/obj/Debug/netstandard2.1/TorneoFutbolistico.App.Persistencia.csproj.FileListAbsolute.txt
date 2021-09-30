@@ -10,3 +10,15 @@ C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Persistencia\bin\Debug\n
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.csproj.CopyComplete
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.dll
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.pdb
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.deps.json
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.dll
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.pdb
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.dll
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.pdb
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.csprojAssemblyReference.cache
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.AssemblyInfoInputs.cache
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.AssemblyInfo.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.csproj.CopyComplete
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.dll
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.pdb
