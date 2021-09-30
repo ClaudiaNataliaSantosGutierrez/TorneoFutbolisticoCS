@@ -13,14 +13,14 @@ namespace TorneoFutbolistico.App.Consola
         //private static IRepositorioPartido _repoPartido = new RepositorioPartido();
         //private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio();
         //private static IRepositorioEstadio _repoEstadio= new RepositorioEstadio();
-        //private static IRepositorioEquipo _repoEquipo= new RepositorioEquipo();
+        private static IRepositorioEquipo _repoEquipo= new RepositorioEquipo();
         //private static IRepositorioDirectorTecnico _repoDirectorTecnico= new RepositorioDirectorTecnico();
-        private static IRepositorioJugador _repoJugador = new RepositorioJugador();
+        ////private static IRepositorioJugador _repoJugador = new RepositorioJugador();
 
        static void Main(string[] args)
        {
             Console.WriteLine("Hello World Entity Framework!");
-            AddJugador();
+            ////AddJugador();
             //BuscarPaciente(3);
             ////MostrarJugadores();
             //AddArbitro();
@@ -29,6 +29,7 @@ namespace TorneoFutbolistico.App.Consola
             //AddDesempeño();
             //BuscarDesempeño(3);
             //MostrarDesempeño();
+            ///AsignarEquipo();
             //AddNovedadPartido();
             //BuscarNovedadPartido(3);
             //MostrarNovedadPartido();
@@ -47,19 +48,20 @@ namespace TorneoFutbolistico.App.Consola
             //AddDirectorTecnico();
             //BuscarDirectorTecnico(3);
             //MostrarDirectorTecnico();
+            AsignarDesempeño();
         }
 
-        private static void AddJugador()
+        ////private static void AddJugador()
         //private static void AddArbitro()
-        //private static void AddDesempeño()
+        ////private static void AddDesempeño()
         //private static void AddNovedadPartido()
         //private static void AddPartido()
         //private static void AddMunicipio()
         //private static void AddEstadio()
-        //private static void AddEquipo()
+        private static void AddEquipo()
         //private static void AddDirectorTecnico()
         {
-            var jugador = new Jugador
+            /*var jugador = new Jugador
             {
                 Nombre = "Daniel",
                 Apellidos = "Aguirre",
@@ -70,7 +72,7 @@ namespace TorneoFutbolistico.App.Consola
                 Posicion = "Delantero",
                 N_equipo = 3
             };
-            _repoJugador.AddJugador(jugador);
+            _repoJugador.AddJugador(jugador);*/
 
             /*var arbitro = new Arbitro
             {
@@ -138,7 +140,7 @@ namespace TorneoFutbolistico.App.Consola
             /*var equipo = new Equipo
             {
                 //Id = 1099,
-                NombreEquipo = "MVP",
+                NombreEquipo = "Halcones Azules",
             };
             _repoEquipo.AddEquipo(equipo);*/
 
@@ -153,14 +155,14 @@ namespace TorneoFutbolistico.App.Consola
             _repoDirectorTecnico.AddDirectorTecnico(directorTecnico);*/
         }
 
-        private static void BuscarJugador(int idJugador)
+        ////private static void BuscarJugador(int idJugador)
         //private static void BuscarArbitro(int idArbitro)
-        //private static void BuscarDesempeño(int idDesempeño)
+        /////private static void BuscarDesempeño(int idDesempeño)
         //private static void BuscarNovedadPartido(int idNovedadPartido)
         //private static void BuscarPartido(int idPartido)
         //private static void BuscarMunicipio(int idMunicipio)
         //private static void BuscarEstadio(int idEstadio)
-        //private static void BuscarEquipo(int idEquipo)
+        private static void BuscarEquipo(int idEquipo)
         //private static void BuscarDirectorTecnico(int idDirectorTecnico)
         //private static void MostrarJugadores()
         {
@@ -170,21 +172,21 @@ namespace TorneoFutbolistico.App.Consola
         }
 
 
-        private static void MostrarJugadores()
+        ////private static void MostrarJugadores()
         //private static void MostrarArbitros()
-        //private static void MostrarDesempeños()
+        /////private static void MostrarDesempeños()
         //private static void MostrarNovedadPartidos()
         //private static void MostrarPartidos()
         //private static void MostrarMunicipios()
         //private static void MostrarEstadios()
-        //private static void MostrarEquipos()
+        private static void MostrarEquipos()
         //private static void MostrarDirectoresTecnicos()
         {
-            var Jugadores = _repoJugador.GetAllJugadores();
+            /*var Jugadores = _repoJugador.GetAllJugadores();
             foreach (var jugador in Jugadores)
             {
                 Console.WriteLine(jugador.Nombre+" "+jugador.Apellidos);
-            }
+            }*/
 
             /*var Arbitros = _repoArbitro.GetAllArbitros();
             foreach (var arbitro in Arbitros)
@@ -195,7 +197,7 @@ namespace TorneoFutbolistico.App.Consola
             /*var Desempeños = _repoDesempeño.GetAllDesempeños();
             foreach (var desempeño in Desempeños)
             {
-                Console.WriteLine(desempeño.PartidosGanados +" "+desempeño.Puntos);
+                Console.WriteLine(desempeño.PartidosGanados +" "+desempeño.Puntos);             ////
             }*/
 
             /*var NovedadPartidos = _repoNovedadPartido.GetAllNovedadPartidos();
@@ -233,6 +235,31 @@ namespace TorneoFutbolistico.App.Consola
             {
                 Console.WriteLine(directorTecnico.Nombre+" "+directorTecnico.Apellidos);
             }*/
+        }
+
+
+
+
+
+        /*private static void AddDesempeño()
+        {
+            var equipo = new Equipo
+            {
+                PartidosJugados = 2,
+                PartidosGanados = 2,
+                PartidosEmpatados = 1,
+                PartidosPerdidos = 3,
+                GolesFavor = 6,
+                GolesContra = 2,
+                Puntos = 40
+            };
+            _repoDesempeño.AddDesempeño(desempeño);
+        }*/
+
+        private static void AsignarDesempeño()
+        {
+            var desempeño = _repoEquipo.AsignarDesempeño(1, 1);
+            Console.WriteLine(desempeño.PartidosGanados +" "+desempeño.Puntos);    //NombreEquipo  desempeño.PartidosGanados +" "+desempeño.Puntos
         }
     }
 }

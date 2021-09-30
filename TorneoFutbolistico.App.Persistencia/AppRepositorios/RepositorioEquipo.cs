@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using System.Linq;
 using TorneoFutbolistico.App.Dominio;
 
+using TorneoFutbolistico.App.Persistencia;
+
 namespace TorneoFutbolistico.App.Persistencia
 {
     public class RepositorioEquipo : IRepositorioEquipo
@@ -41,9 +43,28 @@ namespace TorneoFutbolistico.App.Persistencia
             {
                 equipoEncontrado.Id  = equipo.Id;
                 equipoEncontrado.NombreEquipo = equipo.NombreEquipo;
+
+                ///desempeñoEncontrado.Desempeño = desempeñoEncontrado.Desempeño;    /////
+
                 _appContext.SaveChanges();
             }
             return equipoEncontrado;
+        }
+
+        Desempeño IRepositorioEquipo.AsignarDesempeño(int idEquipo, int idDesempeño)
+        {
+            var equipoEncontrado = _appContext.Equipos.FirstOrDefault(m => m.Id == idEquipo);  //FirstOrDefault(p => p.Id == idDesempeño);Find(idDesempeño);
+            if (equipoEncontrado != null)
+            {
+                var desempeñoEncontrado = _appContext.Desempeños.FirstOrDefault(p => p.Id == idDesempeño);   //FirstOrDefault(m => m.Id == idEquipo);Find(idEquipo);
+                if (desempeñoEncontrado != null)
+                {
+                    equipoEncontrado.Desempeño = desempeñoEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return desempeñoEncontrado;
+            }
+            return null;
         }
     }
 }

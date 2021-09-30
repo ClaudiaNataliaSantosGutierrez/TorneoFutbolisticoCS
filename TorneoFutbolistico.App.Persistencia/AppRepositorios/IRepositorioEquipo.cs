@@ -10,5 +10,6 @@ namespace TorneoFutbolistico.App.Persistencia
         Equipo UpdateEquipo(Equipo equipo);
         void DeleteEquipo(int idEquipo);    
         Equipo GetEquipo(int idEquipo); 
+        Desempeño AsignarDesempeño(int idEquipo, int idDesempeño);
     }
 }
