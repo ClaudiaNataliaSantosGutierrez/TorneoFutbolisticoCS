@@ -7,3 +7,12 @@ C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Dominio\bin\Debug\netsta
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Dominio\bin\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.pdb
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.dll
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.pdb
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\bin\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.deps.json
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\bin\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.dll
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\bin\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.pdb
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.csprojAssemblyReference.cache
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.AssemblyInfoInputs.cache
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.AssemblyInfo.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.csproj.CoreCompileInputs.cache
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.dll
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.pdb
