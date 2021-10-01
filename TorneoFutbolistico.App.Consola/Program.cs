@@ -13,8 +13,8 @@ namespace TorneoFutbolistico.App.Consola
         //private static IRepositorioDesempeño _repoDesempeño = new RepositorioDesempeño();
         //private static IRepositorioNovedadPartido _repoNovedadPartido = new RepositorioNovedadPartido();
         //private static IRepositorioPartido _repoPartido = new RepositorioPartido();
-        private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio();
-        //private static IRepositorioEstadio _repoEstadio= new RepositorioEstadio();
+        //private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio();
+        private static IRepositorioEstadio _repoEstadio= new RepositorioEstadio();
         //private static IRepositorioEquipo _repoEquipo= new RepositorioEquipo();
         //private static IRepositorioDirectorTecnico _repoDirectorTecnico= new RepositorioDirectorTecnico();
         //private static IRepositorioJugador _repoJugador = new RepositorioJugador();
@@ -72,13 +72,14 @@ namespace TorneoFutbolistico.App.Consola
             //AddMunicipio();
             //BuscarMunicipio(3);
             //MostrarMunicipio();
-            AsignarEquipo();
+            //AsignarEquipo();
 
             ////--ACCIONES DE ESTADIO--\\\\
 
             //AddEstadio();
             //BuscarEstadio(3);
             //MostrarEstadio();
+            AsignarMunicipio();
             
 
             ////--ACCIONES DE DIRECTORTECNICO--\\\\
@@ -95,8 +96,8 @@ namespace TorneoFutbolistico.App.Consola
         //private static void AddDesempeño()
         //private static void AddNovedadPartido()
         //private static void AddPartido()
-        private static void AddMunicipio()
-        //private static void AddEstadio()
+        //private static void AddMunicipio()
+        private static void AddEstadio()
         //private static void AddEquipo()
         //private static void AddDirectorTecnico()
 
@@ -190,13 +191,13 @@ namespace TorneoFutbolistico.App.Consola
 
             ////--AGREGAR ELEMENTOS ESTADIO--\\\\
 
-            /*var estadio = new Estadio
+            var estadio = new Estadio
             {
                 //Id = 1099,
-                NombreEstadio = "Coliseo Roma",
+                NombreEstadio = "Metropolitano",
                 Direccion = "calle 130",
             };
-            _repoEstadio.AddEstadio(estadio);*/
+            _repoEstadio.AddEstadio(estadio);
 
 
             ////--AGREGAR ELEMENTOS EQUIPO--\\\\
@@ -247,9 +248,9 @@ namespace TorneoFutbolistico.App.Consola
         //private static void MostrarDesempeños()
         //private static void MostrarNovedadPartidos()
         //private static void MostrarPartidos()
-        private static void MostrarMunicipios()
+        //private static void MostrarMunicipios()
         //private static void MostrarEstadios()
-        //private static void MostrarEquipos()
+        private static void MostrarEquipos()
         //private static void MostrarDirectoresTecnicos()
 
         {
@@ -345,10 +346,19 @@ namespace TorneoFutbolistico.App.Consola
 
         ////--ACCION ESPECIAL DE MUNICIPIO PARA ASIGNAR UN EQUIPO A UN MUNICIPIO--\\\\
 
-        private static void AsignarEquipo()
+        /*private static void AsignarEquipo()
         {
             var equipo = _repoMunicipio.AsignarEquipo(1, 1);
             Console.WriteLine(equipo.NombreEquipo);    
+        }*/
+
+
+        ////--ACCION ESPECIAL DE EQUIPO PARA ASIGNAR UN MUNICIPIO A UN EQUIPO--\\\\
+
+        private static void AsignarMunicipio()
+        {
+            var municipio = _repoEstadio.AsignarMunicipio(1, 1);
+            Console.WriteLine(municipio.NombreMunicipio);    
         }
     }
 }
