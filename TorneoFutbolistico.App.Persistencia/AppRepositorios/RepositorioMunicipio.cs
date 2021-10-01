@@ -45,5 +45,21 @@ namespace TorneoFutbolistico.App.Persistencia
             }
             return municipioEncontrado;
         }
+
+        Equipo IRepositorioMunicipio.AsignarEquipo(int idMunicipio, int idEquipo)
+        {
+            var municipioEncontrado = _appContext.Municipios.FirstOrDefault(m => m.Id == idMunicipio);  //FirstOrDefault(p => p.Id == idDesempeño);Find(idDesempeño);
+            if (municipioEncontrado != null)
+            {
+                var equipoEncontrado = _appContext.Equipos.FirstOrDefault(p => p.Id == idEquipo);   //FirstOrDefault(m => m.Id == idEquipo);Find(idEquipo);
+                if (equipoEncontrado != null)
+                {
+                    municipioEncontrado.Equipo = equipoEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return equipoEncontrado;
+            }
+            return null;
+        }
     }
 }

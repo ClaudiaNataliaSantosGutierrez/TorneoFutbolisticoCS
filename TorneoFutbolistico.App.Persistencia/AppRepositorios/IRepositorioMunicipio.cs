@@ -10,6 +10,7 @@ namespace TorneoFutbolistico.App.Persistencia
         Municipio UpdateMunicipio(Municipio municipio);
         void DeleteMunicipio(int idMunicipio);    
         Municipio GetMunicipio(int idMunicipio);
+        Equipo AsignarEquipo(int idMunicipio, int idEquipo);
     }
 }
 
