@@ -10,7 +10,7 @@ namespace TorneoFutbolistico.App.Persistencia
         Partido UpdatePartido(Partido partido);
         void DeletePartido(int idpartido);    
         Partido GetPartido(int idpartido);
-        //Estadio AsignarEstadio(int idpartido, int idEstadio);
-        //Arbitro AsignarArbitro(int idpartido, int idArbitro);
+        Estadio AsignarEstadio(int idPartido, int idEstadio);
+        Arbitro AsignarArbitro(int idPartido, int idArbitro);
     }
 }

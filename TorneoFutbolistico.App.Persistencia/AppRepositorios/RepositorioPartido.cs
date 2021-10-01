@@ -52,6 +52,38 @@ namespace TorneoFutbolistico.App.Persistencia
             }
             return partidoEncontrado;
         }
+
+        Estadio IRepositorioPartido.AsignarEstadio(int idPartido, int idEstadio)
+        {
+            var partidoEncontrado = _appContext.Partidos.FirstOrDefault(m => m.Id == idPartido);  //FirstOrDefault(p => p.Id == idDesempeño);Find(idDesempeño);
+            if (partidoEncontrado != null)
+            {
+                var estadioEncontrado = _appContext.Estadios.FirstOrDefault(p => p.Id == idEstadio);   //FirstOrDefault(m => m.Id == idEquipo);Find(idEquipo);
+                if (estadioEncontrado != null)
+                {
+                    partidoEncontrado.Estadio = estadioEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return estadioEncontrado;
+            }
+            return null;
+        }
+
+        Arbitro IRepositorioPartido.AsignarArbitro(int idPartido, int idArbitro)
+        {
+            var partidoEncontrado = _appContext.Partidos.FirstOrDefault(m => m.Id == idPartido);  //FirstOrDefault(p => p.Id == idDesempeño);Find(idDesempeño);
+            if (partidoEncontrado != null)
+            {
+                var arbitroEncontrado = _appContext.Arbitros.FirstOrDefault(p => p.id == idArbitro);   //FirstOrDefault(m => m.Id == idEquipo);Find(idEquipo);
+                if (arbitroEncontrado != null)
+                {
+                    partidoEncontrado.Arbitro = arbitroEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return arbitroEncontrado;
+            }
+            return null;
+        }
     }
 }
 
