@@ -1,0 +1,34 @@
+﻿@page
+@model TorneoFutbolistico.App.Frontend.Pages.Jugadores.CreateModel
+@{
+}
+<h1>Nuevo Jugador</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Jugador.Nombre"></label>
+        <input asp-for="Jugador.Nombre" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Jugador.Apellidos"></label>
+        <input asp-for="Jugador.Apellidos" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Jugador.Documento"></label>
+        <input asp-for="Jugador.Documento" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Jugador.NumeroTelefono"></label>
+        <input asp-for="Jugador.NumeroTelefono" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Jugador.Numero"></label>
+        <input asp-for="Jugador.Numero" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Jugador.Posicion"></label>
+        <input asp-for="Jugador.Posicion" class="form-control">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Crear Jugador</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

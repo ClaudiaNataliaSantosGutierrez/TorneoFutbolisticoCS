@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eIqLEIAvJmAF6d3XkrI/RVqRdlVBDXjH0i7GW9FmDoVYf6EfulUKQcPBwMDdTUq+9K62H/efceedU2CLcaJ3Sg==",
+  "dgSpecHash": "Jj/ny71kRSFG4aODxc4iuF6yqmfTVyDoWC3HQsYnfQUEvsJsAkqZtHLOsIiiykLkwn6e4YnC71vf5LP0i9pLwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jair.sevillano\\Music\\TorneoEstefania\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
+  "projectFilePath": "C:\\TorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jair.sevillano\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jair.sevillano\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\c1094885\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\c1094885\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

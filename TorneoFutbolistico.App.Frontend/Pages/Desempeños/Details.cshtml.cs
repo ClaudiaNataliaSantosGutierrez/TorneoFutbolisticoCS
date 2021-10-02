@@ -29,5 +29,11 @@ namespace TorneoFutbolistico.App.Frontend.Pages.Desempeños
                 return Page();
             }
         }
+          public IActionResult OnPost(Desempeño desempeño)
+        {
+            _repoDesempeño.AddDesempeño(desempeño);
+            return RedirectToPage("Index");
+           
+        }
     }
 }

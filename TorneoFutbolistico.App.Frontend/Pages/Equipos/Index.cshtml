@@ -3,23 +3,29 @@
 @{
 }
 <h1>Listado de Equipos</h1>
+<td>
+                <a class="btn btn-primary" asp-page="./Create" >Nuevo Equipo</a>
+                <table class="table"></table>
+              </td>
 <table class="table">
   <thead class="thead-dark">
     <tr>
       <th scope="col">NombreEquipo</th>
       <th scope="col">Acciones</th>
+     
     </tr>
   </thead>
   <tbody>
+     
       @foreach (var Equipo in Model.Equipos)
       {
           <tr>
               <td>@Equipo.NombreEquipo</td>
               <td>
-                <a class="btn btn-primary" asp-page="./Details" asp-route-Id="@Equipo.Id">
-                  Detalle
-                </a>
+                <a class="btn btn-primary" asp-page="./Details" asp-route-Id="@Equipo.Id">Detalle</a>
+                <a class="btn btn-primary" asp-page="./Edit" asp-route-Id="@Equipo.Id">Editar</a>
               </td>
+              
           </tr>
       }
   </tbody>

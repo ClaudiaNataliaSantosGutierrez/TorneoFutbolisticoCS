@@ -29,5 +29,12 @@ namespace TorneoFutbolistico.App.Frontend.Pages.Equipos
                 return Page();
             }
         }
+        public IActionResult OnPost(Equipo equipo)
+        {
+            _repoEquipo.AddEquipo(equipo);   
+            return RedirectToPage("Index");
+           
+            
+        }
     }
 }

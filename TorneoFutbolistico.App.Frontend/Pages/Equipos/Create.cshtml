@@ -1,0 +1,14 @@
+﻿@page
+@using TorneoFutbolistico.App.Dominio
+@model TorneoFutbolistico.App.Frontend.Pages.Equipos.CreateModel
+@{
+}
+<h1>Nuevo Equipo</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="equipo.NombreEquipo"></label>
+        <input asp-for="equipo.NombreEquipo" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Crear Equipo</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

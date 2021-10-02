@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jair.sevillano\\Music\\TorneoEstefania\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {}
+    "C:\\TorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jair.sevillano\\Music\\TorneoEstefania\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {
+    "C:\\TorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jair.sevillano\\Music\\TorneoEstefania\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
+        "projectUniqueName": "C:\\TorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
         "projectName": "TorneoFutbolistico.App.Dominio",
-        "projectPath": "C:\\Users\\jair.sevillano\\Music\\TorneoEstefania\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\jair.sevillano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jair.sevillano\\Music\\TorneoEstefania\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\obj\\",
+        "projectPath": "C:\\TorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\c1094885\\.nuget\\packages\\",
+        "outputPath": "C:\\TorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jair.sevillano\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\c1094885\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

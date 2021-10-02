@@ -3,6 +3,10 @@
 @{
 }
 <h1>Listado de Arbitros</h1>
+<td>
+                <a class="btn btn-primary" asp-page="./Create" >Nuevo Arbitro</a>
+                <table class="table"></table>
+              </td>
 <table class="table">
   <thead class="thead-dark">
     <tr>
@@ -20,9 +24,8 @@
               <td>@Arbitro.Apellidos</td>
               <td>@Arbitro.NumeroTelefono</td>
               <td>
-                <a class="btn btn-primary" asp-page="./Details" asp-route-id="@Arbitro.id">
-                  Detalle
-                </a>
+                <a class="btn btn-primary" asp-page="./Details" asp-route-id="@Arbitro.id">Detalle</a>
+                <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@Arbitro.id">Editar</a>
               </td>
           </tr>
       }

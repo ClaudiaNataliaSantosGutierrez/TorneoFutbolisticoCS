@@ -196,3 +196,11 @@ C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\D
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\TorneoFutbolistico.App.Frontend.genruntimeconfig.cache
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Municipios\Edit.cshtml.g.cs
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Municipios\Edit.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Equipos\Create.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Desempeños\Create.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Desempeños\Edit.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Equipos\Edit.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Jugadores\Create.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Jugadores\Edit.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Arbitros\Create.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Arbitros\Edit.cshtml.g.cs
