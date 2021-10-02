@@ -16,3 +16,12 @@ C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\De
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.csproj.CoreCompileInputs.cache
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.dll
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.pdb
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\bin\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.deps.json
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\bin\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.dll
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\bin\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.pdb
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.csprojAssemblyReference.cache
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.AssemblyInfo.cs
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.dll
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.0\TorneoFutbolistico.App.Dominio.pdb
