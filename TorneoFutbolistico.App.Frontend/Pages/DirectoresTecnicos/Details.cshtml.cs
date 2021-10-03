@@ -19,7 +19,7 @@ namespace TorneoFutbolistico.App.Frontend.Pages.DirectoresTecnicos
         }
         public IActionResult OnGet(int id)
         {
-            directorTecnico = _repoDirectorTecnico.GetDirectorTecnico(id);   //idJugador
+            directorTecnico = _repoDirectorTecnico.GetDirectorTecnico(id);   ///idJugador
             if(directorTecnico == null)
             {
                 return NotFound();

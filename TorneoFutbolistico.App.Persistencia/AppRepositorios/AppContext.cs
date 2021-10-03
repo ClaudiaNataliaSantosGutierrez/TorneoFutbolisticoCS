@@ -11,7 +11,7 @@ namespace TorneoFutbolistico.App.Persistencia
         public DbSet<Equipo> Equipos { get; set; }
         public DbSet<Jugador> Jugadores { get; set; }
         public DbSet<Municipio> Municipios { get; set; }
-        public DbSet<NovedadPartido> NovedadPartidos { get; set; }
+        public DbSet<NovedadPartido> NovedadesPartido { get; set; }
         public DbSet<Partido> Partidos { get; set; }
         public DbSet<Estadio> Estadios { get; set; }
 

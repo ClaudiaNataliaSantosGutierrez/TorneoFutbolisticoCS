@@ -5,10 +5,10 @@ namespace TorneoFutbolistico.App.Persistencia
 {
     public interface IRepositorioNovedadPartido
     {
-        IEnumerable<NovedadPartido> GetAllNovedadPartidos();
+        IEnumerable<NovedadPartido> GetAllNovedadesPartido();
         NovedadPartido AddNovedadPartido(NovedadPartido novedadPartido);
         NovedadPartido UpdateNovedadPartido(NovedadPartido novedadPartido);
         void DeleteNovedadPartido(int idNovedadPartido);    
         NovedadPartido GetNovedadPartido(int idNovedadPartido);
-    }
+    }//
 }

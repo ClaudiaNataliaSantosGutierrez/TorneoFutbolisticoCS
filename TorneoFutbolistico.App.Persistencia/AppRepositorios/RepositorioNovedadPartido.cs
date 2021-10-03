@@ -16,33 +16,33 @@ namespace TorneoFutbolistico.App.Persistencia
 
         NovedadPartido IRepositorioNovedadPartido.AddNovedadPartido(NovedadPartido novedadPartido)
         {
-            var novedadPartidoAdicionado = _appContext.NovedadPartidos.Add(novedadPartido);
+            var novedadPartidoAdicionado = _appContext.NovedadesPartido.Add(novedadPartido);
             _appContext.SaveChanges();
             return novedadPartidoAdicionado.Entity; 
         }
 
         void IRepositorioNovedadPartido.DeleteNovedadPartido(int idNovedadPartido)
         {
-            var novedadPartidoEncontrado = _appContext.NovedadPartidos.Find(idNovedadPartido);    //.FirstOrDefault(p => p.Id==idPaciente)
+            var novedadPartidoEncontrado = _appContext.NovedadesPartido.Find(idNovedadPartido);    //.FirstOrDefault(p => p.Id==idPaciente)
             if (novedadPartidoEncontrado == null)
                 return;
-            _appContext.NovedadPartidos.Remove(novedadPartidoEncontrado);
+            _appContext.NovedadesPartido.Remove(novedadPartidoEncontrado);
             _appContext.SaveChanges();
         }
 
-        IEnumerable<NovedadPartido> IRepositorioNovedadPartido.GetAllNovedadPartidos()
+        IEnumerable<NovedadPartido> IRepositorioNovedadPartido.GetAllNovedadesPartido()
         {
-            return _appContext.NovedadPartidos;
+            return _appContext.NovedadesPartido;
         }
 
         NovedadPartido IRepositorioNovedadPartido.GetNovedadPartido(int idNovedadPartido)
         {
-            return _appContext.NovedadPartidos.Find(idNovedadPartido);    //p => p.Id==idPaciente
+            return _appContext.NovedadesPartido.Find(idNovedadPartido);    //p => p.Id==idPaciente
         }
 
         NovedadPartido IRepositorioNovedadPartido.UpdateNovedadPartido(NovedadPartido novedadPartido)
         {
-            var novedadPartidoEncontrado = _appContext.NovedadPartidos.Find(novedadPartido.Id);   //p => p.Id==paciente.Id
+            var novedadPartidoEncontrado = _appContext.NovedadesPartido.Find(novedadPartido.Id);   //p => p.Id==paciente.Id
             if (novedadPartidoEncontrado!=null)
             {
                 //novedadPartidoEncontrado.Id = novedadPartido.Id;

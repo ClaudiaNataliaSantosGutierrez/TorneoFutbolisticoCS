@@ -1,0 +1,37 @@
+﻿@page
+@using TorneoFutbolistico.App.Dominio
+@model TorneoFutbolistico.App.Frontend.Pages.NovedadesPartidos.CreateModel
+@{
+}
+<h1>Nueva NovedadPardido</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="novedadPartido.Novedad"></label>
+        <input asp-for="novedadPartido.Novedad" class="form-control">
+        <span asp-validation-for="novedadPartido.Novedad" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="novedadPartido.JugadorInvolucrado"></label>
+        <input asp-for="novedadPartido.JugadorInvolucrado" class="form-control">
+        <span asp-validation-for="novedadPartido.JugadorInvolucrado" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="novedadPartido.TarjetasAmarillas"></label>
+        <input asp-for="novedadPartido.TarjetasAmarillas" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="novedadPartido.TarjetasRojas"></label>
+        <input asp-for="novedadPartido.TarjetasRojas" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="novedadPartido.Goles"></label>
+        <input asp-for="novedadPartido.Goles" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="novedadPartido.Minuto"></label>
+        <input asp-for="novedadPartido.Minuto" class="form-control">
+        <span asp-validation-for="novedadPartido.Minuto" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Crear NovedadPardido</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

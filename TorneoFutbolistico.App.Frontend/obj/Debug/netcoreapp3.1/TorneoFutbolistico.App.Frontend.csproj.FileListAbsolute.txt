@@ -84,7 +84,6 @@ C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netco
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Desempeños\Index.cshtml.g.cs
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Partidos\Index.cshtml.g.cs
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Municipios\Index.cshtml.g.cs
-C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\NovedadPartido\Index.cshtml.g.cs
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estadios\Index.cshtml.g.cs
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Equipos\Index.cshtml.g.cs
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\DirectoresTecnicos\Index.cshtml.g.cs
@@ -196,3 +195,7 @@ C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\D
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\TorneoFutbolistico.App.Frontend.genruntimeconfig.cache
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Municipios\Edit.cshtml.g.cs
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Municipios\Edit.cshtml.g.cs
+C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\NovedadesPartidos\Index.cshtml.g.cs
+C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\NovedadesPartidos\Details.cshtml.g.cs
+C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\NovedadesPartidos\Create.cshtml.g.cs
+C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\NovedadesPartidos\Edit.cshtml.g.cs
