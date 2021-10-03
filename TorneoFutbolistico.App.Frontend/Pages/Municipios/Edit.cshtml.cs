@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using TorneoFutbolistico.App.Persistencia;
 using TorneoFutbolistico.App.Dominio;
 
-namespace TorneoFutbolistico.App.Frontend.Pages
+namespace TorneoFutbolistico.App.Frontend.Pages.Municipios
 {
     public class EditModel : PageModel
     {
@@ -19,7 +19,7 @@ namespace TorneoFutbolistico.App.Frontend.Pages
         }
         public IActionResult OnGet(int Id)
         {
-            municipio = _repoMunicipio.GetMunicipio(Id);   //idJugador
+            municipio = _repoMunicipio.GetMunicipio(Id);   //idMunicipio
             if(municipio == null)
             {
                 return NotFound();
