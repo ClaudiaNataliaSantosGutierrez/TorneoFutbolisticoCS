@@ -1,0 +1,41 @@
+﻿@page
+@model TorneoFutbolistico.App.Frontend.Pages.Desempeños.EditModel
+@{
+}
+<h1>Editar Desempeño</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="desempeño.Id"></label>
+        <input asp-for="desempeño.Id" class="form-control"readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="desempeño.PartidosJugados"></label>
+        <input asp-for="desempeño.PartidosJugados" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="desempeño.PartidosGanados"></label>
+        <input asp-for="desempeño.PartidosGanados" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="desempeño.PartidosEmpatados"></label>
+        <input asp-for="desempeño.PartidosEmpatados" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="desempeño.PartidosPerdidos"></label>
+        <input asp-for="desempeño.PartidosPerdidos" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="desempeño.GolesFavor"></label>
+        <input asp-for="desempeño.GolesFavor" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="desempeño.GolesContra"></label>
+        <input asp-for="desempeño.GolesContra" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="desempeño.Puntos"></label>
+        <input asp-for="desempeño.Puntos" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Editar Desempeño</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

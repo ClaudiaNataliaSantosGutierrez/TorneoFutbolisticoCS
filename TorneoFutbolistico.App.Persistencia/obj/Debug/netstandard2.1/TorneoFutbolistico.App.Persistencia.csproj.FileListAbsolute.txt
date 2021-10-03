@@ -22,3 +22,15 @@ C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\o
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.csproj.CopyComplete
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.dll
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.pdb
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.deps.json
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.dll
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.pdb
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.dll
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\bin\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.pdb
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.AssemblyInfo.cs
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.csproj.CopyComplete
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.dll
+C:\Users\jair.sevillano\Music\TorneoEstefania\TorneoFutbolisticoCS\TorneoFutbolistico.App.Persistencia\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Persistencia.pdb

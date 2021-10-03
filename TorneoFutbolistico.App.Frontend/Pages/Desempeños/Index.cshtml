@@ -3,11 +3,18 @@
 @{
 }
 <h1>Listado de Desempeños</h1>
+<td>
+                <a class="btn btn-primary" asp-page="./Create" >Nuevo Desempeño</a>
+                <table class="table"></table>
+              </td>
 <table class="table">
   <thead class="thead-dark">
     <tr>
       <th scope="col">PartidosJugados</th>
       <th scope="col">PartidosGanados</th>
+      <th scope="col">PartidosPerdidos</th>
+      <th scope="col">GolesFavor</th>
+      <th scope="col">GolesContra</th>
       <th scope="col">Puntos</th>
       <th scope="col">Acciones</th>
     </tr>
@@ -18,11 +25,14 @@
           <tr>
               <td>@Desempeño.PartidosJugados</td>
               <td>@Desempeño.PartidosGanados</td>
+              <td>@Desempeño.PartidosPerdidos</td>
+              <td>@Desempeño.GolesFavor</td>
+              <td>@Desempeño.GolesContra</td>
               <td>@Desempeño.Puntos</td>
               <td>
-                <a class="btn btn-primary" asp-page="./Details" asp-route-Id="@Desempeño.Id">
-                  Detalle
-                </a>
+                <a class="btn btn-primary" asp-page="./Details" asp-route-Id="@Desempeño.Id">Detalle</a>
+                <a class="btn btn-primary" asp-page="./Edit" asp-route-Id="@Desempeño.Id">Editar</a>
+                
               </td>
           </tr>
       }
