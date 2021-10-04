@@ -1,0 +1,52 @@
+using System.Data.Common;
+using System.Dynamic;
+using System;
+using Fstd7.App.Dominio;
+using Fstd7.App.Persistencia;
+
+namespace Fstd7.App.Consola
+{
+    class Program
+    {
+        private static IRepositorioJugador _repoJugador = new RepositorioJugador(new Fstd7.App.Persistencia.AppContext());
+        private static IRepositorioArbitro _repoArbitro = new RepositorioArbitro(new Fstd7.App.Persistencia.AppContext());
+        private static IRepositorioTecnico _repoTecnico = new RepositorioTecnico(new Fstd7.App.Persistencia.AppContext());
+        private static IRepositorioEstadio _repoEstadio = new RepositorioEstadio(new Fstd7.App.Persistencia.AppContext());
+        private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio(new Fstd7.App.Persistencia.AppContext());
+        private static IRepositorioEquipo _repoEquipo = new RepositorioEquipo(new Fstd7.App.Persistencia.AppContext());
+        private static IRepositorioPartido _repoPartido = new RepositorioPartido(new Fstd7.App.Persistencia.AppContext());
+        private static IRepositorioProgramacion _repoProgramacion = new RepositorioProgramacion(new Fstd7.App.Persistencia.AppContext());
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World Entity Framework - PROTIC!");
+            
+            AddEstadio();            
+            Console.WriteLine("");
+            Console.WriteLine("Los Estadios registrados hasta ahora son: ");
+            MostrarEstadios();
+        }
+
+        private static void AddEstadio()
+        {
+            var estadio = new Estadio
+            {
+                //Municipio."XXXXX",
+                Nombre = "XXXXXX XXXXXXX ",
+                Direccion = "XXXXXX XXXXX  XXX"
+
+            };
+            _repoEstadio.AddEstadio(estadio);
+        }
+        private static void BuscarEstadio(int idEstadio)
+        {
+            var estadio = _repoEstadio.GetEstadio(idEstadio);
+            Console.WriteLine(estadio.Nombre);
+        }
+        private static void MostrarEstadios()
+        {
+            var estadios = _repoEstadio.GetAllEstadios();
+            foreach (var estadio in estadios)
+            {
+                Console.WriteLine(estadio.Nombre);
+            }
+        }
