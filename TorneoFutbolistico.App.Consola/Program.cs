@@ -6,7 +6,7 @@ namespace TorneoFutbolistico.App.Consola
 {
     class Program
     {
-        ////-- REPOSITORIOS DEL PROYECTO--\\\\
+        //////-- REPOSITORIOS DEL PROYECTO--\\\\\\
 
         //--private static IRepositorioJugador _repoJugador = new RepositorioJugador(new Persistencia.AppContext());--\\-REPOSITORIO INICIAL MUESTRA
         //private static IRepositorioArbitro _repoArbitro = new RepositorioArbitro();
