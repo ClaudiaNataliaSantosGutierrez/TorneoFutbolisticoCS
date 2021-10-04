@@ -1,21 +1,19 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "t1NQV6Hrq4/BMSh7yrVhxzx9yLcKPX9kNoGWHdGrYCRHLC8BdiSFMUsN3tPph9xudzqW78/jP3baJAH645YSpw==",
-=======
-  "dgSpecHash": "Jj/ny71kRSFG4aODxc4iuF6yqmfTVyDoWC3HQsYnfQUEvsJsAkqZtHLOsIiiykLkwn6e4YnC71vf5LP0i9pLwQ==",
->>>>>>> 2d5d33d7829140e7396a2e632b5f6e3c418f46ef
+  "dgSpecHash": "SY3wcEN8tXojtMrnv0YFw56iMQ+vFZKmVU/GE+lFuZusmKhVGqIxox69u0VwWwZkmM3pMy/aLZBcaNR62/elhg==",
   "success": true,
-  "projectFilePath": "C:\\TorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
   "expectedPackageFiles": [
-<<<<<<< HEAD
-    "C:\\Users\\Carlos\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Carlos\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Carlos\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
-=======
-    "C:\\Users\\c1094885\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\c1094885\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
->>>>>>> 2d5d33d7829140e7396a2e632b5f6e3c418f46ef
+    "C:\\Users\\jair.sevillano\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jair.sevillano\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\jair.sevillano\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

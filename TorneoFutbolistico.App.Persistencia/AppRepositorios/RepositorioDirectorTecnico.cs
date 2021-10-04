@@ -48,5 +48,6 @@ namespace TorneoFutbolistico.App.Persistencia
             }
             return directorTecnicoEncontrado;
         }
+        
     }
 }

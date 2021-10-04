@@ -7266,19 +7266,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\c1094885\\.nuget\\packages\\": {}
+    "C:\\Users\\jair.sevillano\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
       "projectName": "TorneoFutbolistico.App.Persistencia",
-      "projectPath": "C:\\TorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\c1094885\\.nuget\\packages\\",
-      "outputPath": "C:\\TorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\jair.sevillano\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\c1094885\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jair.sevillano\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7289,8 +7289,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\TorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {
-              "projectPath": "C:\\TorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj"
+            "C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj"
             }
           }
         }
@@ -7343,5 +7343,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

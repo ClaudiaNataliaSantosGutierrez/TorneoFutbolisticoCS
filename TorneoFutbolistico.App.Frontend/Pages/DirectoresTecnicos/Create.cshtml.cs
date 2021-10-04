@@ -12,15 +12,14 @@ namespace TorneoFutbolistico.App.Frontend.Pages.DirectoresTecnicos
     public class CreateModel : PageModel
     {
         private readonly IRepositorioDirectorTecnico _repoDirectorTecnico;
-        public directorTecnico DirectorTecnico {get; set;}
+        public DirectorTecnico directorTecnico {get; set;}
         public CreateModel(IRepositorioDirectorTecnico repoDirectorTecnico)
         {
             _repoDirectorTecnico = repoDirectorTecnico;
         }
         public void OnGet()
         {
-            directorTecnico = new DirectorTecnico();   
-            
+            directorTecnico = new DirectorTecnico();
         }
         public IActionResult OnPost(DirectorTecnico directorTecnico)
         {
@@ -29,6 +28,5 @@ namespace TorneoFutbolistico.App.Frontend.Pages.DirectoresTecnicos
            
             
         }
-        
     }
 }

@@ -1,30 +1,29 @@
 @page
-@model TorneoFutbolistico.App.Frontend.Pages.Arbitros.EditModel
+@model TorneoFutbolistico.App.Frontend.Pages.DirectoresTecnicos.EditModel
 @{
 }
 <h1>Editar DirectorTecnico</h1>
 <form method="post">
     <div class="form-group">
-        <label asp-for="DirectorTecnico.Id_DS"></label>
-        <input asp-for="DirectorTecnico.Id_DS" class="form-control" readonly>
+        <label asp-for="directorTecnico.Id_DS"></label>
+        <input asp-for="directorTecnico.Id_DS" class="form-control"readonly>
     </div>
     <div class="form-group">
-        <label asp-for="DirectorTecnico.Nombre"></label>
-        <input asp-for="DirectorTecnico.Nombre" class="form-control">
+        <label asp-for="directorTecnico.Nombre"></label>
+        <input asp-for="directorTecnico.Nombre" class="form-control">
     </div>
     <div class="form-group">
-        <label asp-for="DirectorTecnico.Apellidos"></label>
-        <input asp-for="DirectorTecnico.Apellidos" class="form-control">
+        <label asp-for="directorTecnico.Apellidos"></label>
+        <input asp-for="directorTecnico.Apellidos" class="form-control">
     </div>
     <div class="form-group">
-        <label asp-for="DirectorTecnico.Documento"></label>
-        <input asp-for="DirectorTecnico.Documento" class="form-control">
+        <label asp-for="directorTecnico.Documento"></label>
+        <input asp-for="directorTecnico.Documento" class="form-control">
     </div>
     <div class="form-group">
-        <label asp-for="DirectorTecnico.NumeroTelefono"></label>
-        <input asp-for="DirectorTecnico.NumeroTelefono" class="form-control">
+        <label asp-for="directorTecnico.NumeroTelefono"></label>
+        <input asp-for="directorTecnico.NumeroTelefono" class="form-control">
     </div>
-        
     <button type="submit" class="btn btn-primary">Editar DirectorTecnico</button>
 </form>
 <a class="btn btn-secondary" asp-page="./Index">Volver</a>

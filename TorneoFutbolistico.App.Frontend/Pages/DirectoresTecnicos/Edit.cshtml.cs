@@ -17,24 +17,23 @@ namespace TorneoFutbolistico.App.Frontend.Pages.DirectoresTecnicos
         {
             _repoDirectorTecnico = repoDirectorTecnico;
         }
-        public IActionResult OnGet(int id)
+        public IActionResult OnGet(int Id_DS)
         {
-            DirectorTecnico = _repoDirectorTecnico.GetDirectorTecnico(id);
-            if(DirectorTecnico == null)
+            directorTecnico = _repoDirectorTecnico.GetDirectorTecnico(Id_DS);   //idDirectorTecnico
+            if(directorTecnico == null)
             {
                 return NotFound();
             }
             else
             {
                 return Page();
-            } 
-            
+            }
         }
-        public IActionResult OnPost(DirectorTecnico directorTecnico)
+          public IActionResult OnPost(DirectorTecnico directorTecnico)
         {
             _repoDirectorTecnico.UpdateDirectorTecnico(directorTecnico);
             return RedirectToPage("Index");
-            
+           
         }
     }
 }

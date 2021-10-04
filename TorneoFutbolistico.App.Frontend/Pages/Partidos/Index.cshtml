@@ -3,6 +3,10 @@
 @{
 }
 <h1>Lista de Partidos</h1>
+<td>
+                <a class="btn btn-primary" asp-page="./Create" >Nuevo Partido</a>
+                <table class="table"></table>
+              </td>
 <table class="table">
   <thead class="thead-dark">
     <tr>
@@ -25,6 +29,7 @@
                 <a class="btn btn-primary" asp-page="./Details" asp-route-Id="@Partido.Id">
                   Detalle
                 </a>
+                <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@Partido.Id">Editar</a>
               </td>
           </tr>
       }
