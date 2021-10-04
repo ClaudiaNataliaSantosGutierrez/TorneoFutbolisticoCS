@@ -1,0 +1,18 @@
+@page
+@using TorneoFutbolistico.App.Dominio
+@model TorneoFutbolistico.App.Frontend.Pages.Estadios.CreateModel
+@{
+}
+<h1>Nuevo Estadio</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="estadio.NombreEstadio"></label>
+        <input asp-for="estadio.NombreEstadio" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="estadio.Direccion"></label>
+        <input asp-for="estadio.Direccion" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Crear Estadio</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>
