@@ -7266,19 +7266,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jair.sevillano\\.nuget\\packages\\": {}
+    "C:\\Users\\Carlos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
       "projectName": "TorneoFutbolistico.App.Persistencia",
-      "projectPath": "C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\jair.sevillano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jair.sevillano\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7289,8 +7289,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj"
+            "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj"
             }
           }
         }
@@ -7340,16 +7340,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\jair.sevillano\\Music\\ProyectoTorneoFutbolistico\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
