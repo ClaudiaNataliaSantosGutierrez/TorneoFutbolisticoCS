@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using TorneoFutbolistico.App.Dominio;
 
@@ -31,7 +32,12 @@ namespace TorneoFutbolistico.App.Persistencia
 
         Estadio IRepositorioEstadio.GetEstadio(int idEstadio)
         {
-            return _appContext.Estadios.Find(idEstadio);    //p => p.Id==idPaciente
+            var estadio = _appContext.Estadios
+                    .Where(p => p.Id==idEstadio)
+                    .Include(p => p.Municipio)
+                    .FirstOrDefault();
+            return estadio;
+            //return _appContext.Estadios.Find(idEstadio);    //p => p.Id==idPaciente
         }
 
         Estadio IRepositorioEstadio.UpdateEstadio(Estadio estadio)

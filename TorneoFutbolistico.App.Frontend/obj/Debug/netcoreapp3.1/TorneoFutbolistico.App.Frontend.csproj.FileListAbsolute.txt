@@ -444,3 +444,4 @@ C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\GRUPO6\Tor
 C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\GRUPO6\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\TorneoFutbolistico.App.Frontend.dll
 C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\GRUPO6\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\TorneoFutbolistico.App.Frontend.pdb
 C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\GRUPO6\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\TorneoFutbolistico.App.Frontend.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\GRUPO6\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estadios\addMunicipio.cshtml.g.cs
