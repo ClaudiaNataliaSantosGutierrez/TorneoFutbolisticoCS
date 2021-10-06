@@ -23,10 +23,15 @@ namespace TorneoFutbolistico.App.Frontend.Pages.Estadios
         }
         public IActionResult OnPost(Estadio estadio)
         {
-            _repoEstadio.AddEstadio(estadio);   
-            return RedirectToPage("Index");
-           
-            
+            if(ModelState.IsValid)
+            {
+                _repoEstadio.AddEstadio(estadio);   
+                return RedirectToPage("Index");
+            }
+            else
+            {
+                return Page();
+            }
         }
     }
 }
