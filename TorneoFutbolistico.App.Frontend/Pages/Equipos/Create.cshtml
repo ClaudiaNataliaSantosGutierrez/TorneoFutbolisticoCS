@@ -8,6 +8,7 @@
     <div class="form-group">
         <label asp-for="equipo.NombreEquipo"></label>
         <input asp-for="equipo.NombreEquipo" class="form-control">
+        <span asp-validation-for="equipo.NombreEquipo" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Crear Equipo</button>
 </form>

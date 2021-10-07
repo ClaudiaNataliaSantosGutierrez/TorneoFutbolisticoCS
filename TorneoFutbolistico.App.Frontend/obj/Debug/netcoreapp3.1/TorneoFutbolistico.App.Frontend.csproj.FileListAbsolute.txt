@@ -176,7 +176,6 @@ C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\D
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Jugadores\Index.cshtml.g.cs
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Municipios\Details.cshtml.g.cs
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Municipios\Index.cshtml.g.cs
-C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\NovedadPartido\Index.cshtml.g.cs
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Partidos\Details.cshtml.g.cs
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Partidos\Index.cshtml.g.cs
 C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
@@ -327,3 +326,14 @@ C:\Users\jair.sevillano\Music\ProyectoTorneoFutbolistico\TorneoFutbolisticoCS\To
 C:\Users\jair.sevillano\Music\ProyectoTorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\TorneoFutbolistico.App.Frontend.genruntimeconfig.cache
 C:\Users\jair.sevillano\Music\ProyectoTorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estadios\Create.cshtml.g.cs
 C:\Users\jair.sevillano\Music\ProyectoTorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estadios\Edit.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\DirectoresTecnicos\Create.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\DirectoresTecnicos\Edit.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estadios\Create.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estadios\Edit.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Municipios\Create.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\NovedadesPartidos\Create.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\NovedadesPartidos\Details.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\NovedadesPartidos\Edit.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\NovedadesPartidos\Index.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Partidos\Create.cshtml.g.cs
+C:\TorneoFutbolistico\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Partidos\Edit.cshtml.g.cs

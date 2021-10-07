@@ -21,11 +21,17 @@ namespace TorneoFutbolistico.App.Frontend.Pages.Jugadores
         {
             Jugador = new Jugador();
         }
-          public IActionResult OnPost(Jugador jugador)
+        public IActionResult OnPost(Jugador jugador)
         {
-            _repoJugador.AddJugador(jugador);   
-            return RedirectToPage("Index");
-           
+            if (ModelState.IsValid)
+            {
+             _repoJugador.AddJugador(jugador);   
+             return RedirectToPage("Index");
+            }
+            else
+            {
+                return Page();
+            }
             
         }
 

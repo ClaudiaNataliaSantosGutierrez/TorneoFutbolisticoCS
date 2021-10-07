@@ -24,9 +24,15 @@ namespace TorneoFutbolistico.App.Frontend.Pages.Equipos
         }
         public IActionResult OnPost(Equipo equipo)
         {
-            _repoEquipo.AddEquipo(equipo);   
-            return RedirectToPage("Index");
-           
+            if (ModelState.IsValid)
+            {
+               _repoEquipo.AddEquipo(equipo);   
+               return RedirectToPage("Index");
+            }
+            else
+            {
+                return Page();
+            }
             
         }
     }
