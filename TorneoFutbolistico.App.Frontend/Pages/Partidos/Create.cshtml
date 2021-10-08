@@ -7,18 +7,22 @@
     <div class="form-group">
         <label asp-for="partido.FechaHora"></label>
         <input asp-for="partido.FechaHora" class="form-control">
+        <span asp-validation-for="partido.FechaHora" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="partido.EquipoLocal"></label>
         <input asp-for="partido.EquipoLocal" class="form-control">
+        <span asp-validation-for="partido.EquipoLocal" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="partido.MarcadorLocal"></label>
         <input asp-for="partido.MarcadorLocal" class="form-control">
+        <span asp-validation-for="partido.MarcadorLocal" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="partido.EquipoVisitante"></label>
         <input asp-for="partido.EquipoVisitante" class="form-control">
+        <span asp-validation-for="partido.EquipoVisitante" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Crear Partido</button>
 </form>
