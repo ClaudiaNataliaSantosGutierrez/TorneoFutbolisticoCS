@@ -23,10 +23,17 @@ namespace TorneoFutbolistico.App.Frontend.Pages.Partidos
         }
         public IActionResult OnPost(Partido partido)
         {
+            if (ModelState.IsValid)
+            {
             _repoPartido.AddPartido(partido);   
             return RedirectToPage("Index");
-           
+            }
+            else
+            {
+                return Page();
+            }
             
         }
+        
     }
 }
