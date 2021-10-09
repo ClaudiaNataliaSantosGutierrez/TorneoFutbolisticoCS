@@ -23,10 +23,15 @@ namespace TorneoFutbolistico.App.Frontend.Pages.DirectoresTecnicos
         }
         public IActionResult OnPost(DirectorTecnico directorTecnico)
         {
-            _repoDirectorTecnico.AddDirectorTecnico(directorTecnico);   
-            return RedirectToPage("Index");
-           
-            
+            if(ModelState.IsValid)
+            {
+                _repoDirectorTecnico.AddDirectorTecnico(directorTecnico);   
+                return RedirectToPage("Index");
+            }
+            else
+            {
+                return Page();
+            } 
         }
     }
 }
