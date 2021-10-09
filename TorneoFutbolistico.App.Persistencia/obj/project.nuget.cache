@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lEfim7IiKYr4wk0v75j4HQvaj8WPP+DZAdbWxz90KdYdniSYyLaEnDUpgqrVcm0ano5YTjy2Bb8MJMovNiDUgw==",
+  "dgSpecHash": "gIiwSWgSSROvzK/aexeR0MW983d+WT7E34U36sdhqzRno3XE7Mxvps7JncAPJGijqiexaJD4eJs5kewSzQoWmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Carlos\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Carlos\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

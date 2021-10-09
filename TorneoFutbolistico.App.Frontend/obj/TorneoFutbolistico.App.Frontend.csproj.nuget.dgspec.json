@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Frontend\\TorneoFutbolistico.App.Frontend.csproj": {}
+    "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Frontend\\TorneoFutbolistico.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {
+    "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
         "projectName": "TorneoFutbolistico.App.Dominio",
-        "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
+        "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Frontend\\TorneoFutbolistico.App.Frontend.csproj": {
+    "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Frontend\\TorneoFutbolistico.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Frontend\\TorneoFutbolistico.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Frontend\\TorneoFutbolistico.App.Frontend.csproj",
         "projectName": "TorneoFutbolistico.App.Frontend",
-        "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Frontend\\TorneoFutbolistico.App.Frontend.csproj",
+        "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Frontend\\TorneoFutbolistico.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Frontend\\obj\\",
+        "outputPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -82,11 +82,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj"
+              "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj"
               },
-              "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj"
+              "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj"
               }
             }
           }
@@ -121,14 +121,14 @@
         }
       }
     },
-    "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj": {
+    "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
         "projectName": "TorneoFutbolistico.App.Persistencia",
-        "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
+        "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\TorneoFutbolistico.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -142,8 +142,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj"
+              "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj"
               }
             }
           }

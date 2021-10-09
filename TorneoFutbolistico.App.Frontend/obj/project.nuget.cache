@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ReV4+2UaDg9bJB/QTbErJ+GaYYJObO2zxtcOAjtiAPKpzXrJSk56f/yihBYCj4bJnltCk+k0q2TlvMwIvrHDcg==",
+  "dgSpecHash": "zR4Lgr881Uj3iYOtl29hL0cMoCPUYtQTCbc8adjzVjm1anCidsKcB869B5qpMnvYwMGvcIY/q/Yo7QKapCLLXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Frontend\\TorneoFutbolistico.App.Frontend.csproj",
+  "projectFilePath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Frontend\\TorneoFutbolistico.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Carlos\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Carlos\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

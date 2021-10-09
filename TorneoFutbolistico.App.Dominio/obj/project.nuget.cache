@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2D2GQ01jlFyDLx4U+HayVZIzDmOFdMPUzD3yMnMHuWUlP+Ad+47yWTzvC/fWqeKlUgFctHF9uCxWZdpt6PRb/w==",
+  "dgSpecHash": "NRnOf2lCWGnOgCwP67ShklXCSj41TIWOdtG5WwlSz33jbVIqS1GlEtSPEUsKuTfqEgp/j2oF9gL11EB1G5bhDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\GRUPO6\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Carlos\\Desktop\\Misiontic 2020 UCALDAS\\DESARROLLO DE SOFTWARE\\TorneoFutbol\\TorneoFutbolisticoCS\\TorneoFutbolistico.App.Dominio\\TorneoFutbolistico.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Carlos\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Carlos\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
