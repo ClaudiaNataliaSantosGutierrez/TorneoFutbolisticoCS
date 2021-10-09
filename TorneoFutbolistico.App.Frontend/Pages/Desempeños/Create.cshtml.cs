@@ -23,10 +23,15 @@ namespace TorneoFutbolistico.App.Frontend.Pages.Desempeños
         }
         public IActionResult OnPost(Desempeño desempeño)
         {
-            _repoDesempeño.AddDesempeño(desempeño);   
-            return RedirectToPage("Index");
-           
-            
+            if(ModelState.IsValid)
+            {
+               _repoDesempeño.AddDesempeño(desempeño);   
+               return RedirectToPage("Index"); 
+            }
+            else
+            {
+                return Page();
+            }
         }
     }
 }
