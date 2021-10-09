@@ -1,4 +1,5 @@
 ﻿@page
+@using TorneoFutbolistico.App.Dominio
 @model TorneoFutbolistico.App.Frontend.Pages.Jugadores.CreateModel
 @{
 }
@@ -23,10 +24,12 @@
     <div class="form-group">
         <label asp-for="Jugador.Numero"></label>
         <input asp-for="Jugador.Numero" class="form-control">
+        <span asp-validation-for="Jugador.Numero" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="Jugador.Posicion"></label>
         <input asp-for="Jugador.Posicion" class="form-control">
+        <span asp-validation-for="Jugador.Posicion" class="text-danger"></span>
     </div>
     
     <button type="submit" class="btn btn-primary">Crear Jugador</button>
