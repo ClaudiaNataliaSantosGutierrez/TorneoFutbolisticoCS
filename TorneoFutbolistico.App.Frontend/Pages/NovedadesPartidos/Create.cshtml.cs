@@ -30,7 +30,7 @@ namespace TorneoFutbolistico.App.Frontend.Pages.NovedadesPartidos
             }
             else
             {
-                return Page();
+                return Page();//
             }
         }
     }

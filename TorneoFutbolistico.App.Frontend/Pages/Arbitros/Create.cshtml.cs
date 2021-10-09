@@ -24,10 +24,15 @@ namespace TorneoFutbolistico.App.Frontend.Pages.Arbitros
         }
         public IActionResult OnPost(Arbitro arbitro)
         {
-            _repoArbitro.AddArbitro(arbitro);   
-            return RedirectToPage("Index");
-           
-            
+            if(ModelState.IsValid)
+            {
+                _repoArbitro.AddArbitro(arbitro);   
+                return RedirectToPage("Index");
+            }
+            else
+            {
+                return Page();
+            }  
         }
         
     }
