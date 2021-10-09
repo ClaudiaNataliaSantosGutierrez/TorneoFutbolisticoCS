@@ -42,7 +42,7 @@ namespace TorneoFutbolistico.App.Persistencia
 
         Arbitro IRepositorioArbitro.UpdateArbitro(Arbitro arbitro)
         {
-            var arbitroEncontrado = _appContext.Arbitros.Find(arbitro.Id_A);   //p => p.Id==paciente.Id
+            var arbitroEncontrado = _appContext.Arbitros.Find(arbitro.id);    //Id_A //p => p.Id==paciente.Id
             if (arbitroEncontrado!=null)
             {
                 arbitroEncontrado.Nombre = arbitro.Nombre;

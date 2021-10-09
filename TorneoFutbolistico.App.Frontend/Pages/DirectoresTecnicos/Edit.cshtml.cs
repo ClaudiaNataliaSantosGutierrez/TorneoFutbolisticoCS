@@ -17,9 +17,9 @@ namespace TorneoFutbolistico.App.Frontend.Pages.DirectoresTecnicos
         {
             _repoDirectorTecnico = repoDirectorTecnico;
         }
-        public IActionResult OnGet(int Id_DS)
+        public IActionResult OnGet(int id)  //Id_DS
         {
-            directorTecnico = _repoDirectorTecnico.GetDirectorTecnico(Id_DS);   //idDirectorTecnico
+            directorTecnico = _repoDirectorTecnico.GetDirectorTecnico(id);    ////Id_DS //idDirectorTecnico
             if(directorTecnico == null)
             {
                 return NotFound();
@@ -29,7 +29,7 @@ namespace TorneoFutbolistico.App.Frontend.Pages.DirectoresTecnicos
                 return Page();
             }
         }
-          public IActionResult OnPost(DirectorTecnico directorTecnico)
+        public IActionResult OnPost(DirectorTecnico directorTecnico)
         {
             _repoDirectorTecnico.UpdateDirectorTecnico(directorTecnico);
             return RedirectToPage("Index");

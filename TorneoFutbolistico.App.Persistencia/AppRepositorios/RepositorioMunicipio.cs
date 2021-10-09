@@ -36,10 +36,10 @@ namespace TorneoFutbolistico.App.Persistencia
 
         Municipio IRepositorioMunicipio.UpdateMunicipio(Municipio municipio)
         {
-            var municipioEncontrado = _appContext.Municipios.Find(municipio.Id);   //p => p.Id==paciente.Id
+            var municipioEncontrado = _appContext.Municipios.Find(municipio.Id);  //municipio.Id //p => p.Id==paciente.Id
             if (municipioEncontrado!=null)
             {
-                municipioEncontrado.Id = municipio.Id;
+                //municipioEncontrado.Id = municipio.Id;
                 municipioEncontrado.NombreMunicipio  = municipio.NombreMunicipio;
                 _appContext.SaveChanges();
             }

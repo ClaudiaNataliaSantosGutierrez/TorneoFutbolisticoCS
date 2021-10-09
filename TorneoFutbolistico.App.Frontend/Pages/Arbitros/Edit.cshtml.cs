@@ -12,15 +12,15 @@ namespace TorneoFutbolistico.App.Frontend.Pages.Arbitros
     public class EditModel : PageModel
     {
         private readonly IRepositorioArbitro _repoArbitro;
-        public Arbitro Arbitro {get; set;}
+        public Arbitro arbitro {get; set;}
         public EditModel(IRepositorioArbitro repoArbitro)
         {
             _repoArbitro = repoArbitro;
         }
-        public IActionResult OnGet(int Id_A)
+        public IActionResult OnGet(int id)
         {
-            Arbitro = _repoArbitro.GetArbitro(Id_A);
-            if(Arbitro == null)
+            arbitro = _repoArbitro.GetArbitro(id);
+            if(arbitro == null)
             {
                 return NotFound();
             }

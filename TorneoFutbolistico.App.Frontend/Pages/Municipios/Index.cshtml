@@ -10,7 +10,6 @@
 <table class="table">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">Id</th>
       <th scope="col">NombreMunicipio</th>
       <th scope="col">Acciones</th>
     </tr>
@@ -19,17 +18,10 @@
       @foreach (var Municipio in Model.Municipios)
       {
           <tr>
-              <td>@Municipio.Id</td>
               <td>@Municipio.NombreMunicipio</td>
               <td>
-                <a class="btn btn-primary" asp-page="./Details" asp-route-Id="@Municipio.Id">
-                  Detalle
-                </a>
-              </td>
-              <td>
-                <a class="btn btn-primary" asp-page="./Edit" asp-route-Id="@Municipio.Id">
-                 Editar
-                </a>
+                <a class="btn btn-primary" asp-page="./Details" asp-route-Id="@Municipio.Id">Detalle</a>
+                <a class="btn btn-secondary" asp-page="./Edit" asp-route-Id="@Municipio.Id">Editar</a>
               </td>
           </tr>
       }

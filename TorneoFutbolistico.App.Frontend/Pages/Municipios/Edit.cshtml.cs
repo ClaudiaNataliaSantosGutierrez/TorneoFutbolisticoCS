@@ -11,7 +11,7 @@ namespace TorneoFutbolistico.App.Frontend.Pages.Municipios
 {
     public class EditModel : PageModel
     {
-      private readonly IRepositorioMunicipio _repoMunicipio;
+        private readonly IRepositorioMunicipio _repoMunicipio;
         public Municipio municipio {get; set;}
         public EditModel(IRepositorioMunicipio repoMunicipio)
         {

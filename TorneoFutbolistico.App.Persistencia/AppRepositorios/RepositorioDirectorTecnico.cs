@@ -36,7 +36,7 @@ namespace TorneoFutbolistico.App.Persistencia
 
         DirectorTecnico IRepositorioDirectorTecnico.UpdateDirectorTecnico(DirectorTecnico directorTecnico)
         {
-            var directorTecnicoEncontrado = _appContext.DirectoresTecnicos.Find(directorTecnico.Id_DS);   //p => p.Id==paciente.Id
+            var directorTecnicoEncontrado = _appContext.DirectoresTecnicos.Find(directorTecnico.id);   //p => p.Id==paciente.Id
             if (directorTecnicoEncontrado!=null)
             {
                 directorTecnicoEncontrado.Nombre = directorTecnico.Nombre;

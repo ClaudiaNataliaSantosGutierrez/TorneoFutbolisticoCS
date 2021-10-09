@@ -12,15 +12,15 @@ namespace TorneoFutbolistico.App.Frontend.Pages.Jugadores
     public class EditModel : PageModel
      {
         private readonly IRepositorioJugador _repoJugador;
-        public Jugador Jugador {get; set;}
+        public Jugador jugador {get; set;}
         public EditModel(IRepositorioJugador repoJugador)
         {
             _repoJugador = repoJugador;
         }
-        public IActionResult OnGet(int idJugador)
+        public IActionResult OnGet(int id)      //idJugador
         {
-            Jugador = _repoJugador.GetJugador(idJugador);
-            if(Jugador == null)
+            jugador = _repoJugador.GetJugador(id);    //idJugador
+            if(jugador == null)
             {
                 return NotFound();
             }
