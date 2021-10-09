@@ -1,4 +1,5 @@
 @page
+@using TorneoFutbolistico.App.Dominio
 @model TorneoFutbolistico.App.Frontend.Pages.Partidos.CreateModel
 @{
 }
@@ -7,6 +8,7 @@
     <div class="form-group">
         <label asp-for="partido.FechaHora"></label>
         <input asp-for="partido.FechaHora" class="form-control">
+        <span asp-validation-for="partido.FechaHora" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="partido.EquipoLocal"></label>
@@ -15,6 +17,7 @@
     <div class="form-group">
         <label asp-for="partido.MarcadorLocal"></label>
         <input asp-for="partido.MarcadorLocal" class="form-control">
+        <span asp-validation-for="partido.MarcadorLocal" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="partido.EquipoVisitante"></label>
@@ -23,6 +26,7 @@
     <div class="form-group">
         <label asp-for="partido.MarcadorVisitante"></label>
         <input asp-for="partido.MarcadorVisitante" class="form-control">
+        <span asp-validation-for="partido.MarcadorVisitante" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Crear Partido</button>
 </form>
