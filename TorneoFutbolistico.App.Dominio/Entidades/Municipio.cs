@@ -11,6 +11,6 @@ namespace TorneoFutbolistico.App.Dominio
         [Required(ErrorMessage = "El nombre del Municipio es obligatorio")]
         public string NombreMunicipio { get; set; }
         public Equipo Equipo { get; set; }
-        ////public Estadio Estadio { get; set; }
+        ///public Estadio Estadio { get; set; }
     }
 }
