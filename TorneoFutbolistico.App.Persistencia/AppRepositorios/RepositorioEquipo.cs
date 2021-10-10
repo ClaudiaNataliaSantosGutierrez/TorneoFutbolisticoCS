@@ -72,5 +72,11 @@ namespace TorneoFutbolistico.App.Persistencia
             }
             return null;
         }
+
+        IEnumerable<Equipo> IRepositorioEquipo.SearchEquipos(string nombreEquipo)
+        {
+            return _appContext.Equipos
+                        .Where(p => p.NombreEquipo.Contains(nombreEquipo));
+        }
     }
 }
