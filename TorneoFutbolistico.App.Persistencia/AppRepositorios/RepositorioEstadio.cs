@@ -68,5 +68,11 @@ namespace TorneoFutbolistico.App.Persistencia
             }
             return null;
         }
+
+        IEnumerable<Estadio> IRepositorioEstadio.SearchEstadios(string nombreEstadio)
+        {
+            return _appContext.Estadios
+                        .Where(p => p.NombreEstadio.Contains(nombreEstadio));
+        }
     }
 }
