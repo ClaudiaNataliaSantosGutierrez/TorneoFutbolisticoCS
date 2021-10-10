@@ -70,6 +70,12 @@ namespace TorneoFutbolistico.App.Persistencia
             }
             return null;
         }
+
+        IEnumerable<DirectorTecnico> IRepositorioDirectorTecnico.SearchDirectoresTecnicos(string nombre)
+        {
+            return _appContext.DirectoresTecnicos
+                        .Where(p => p.Nombre.Contains(nombre));
+        }
         
     }
 }

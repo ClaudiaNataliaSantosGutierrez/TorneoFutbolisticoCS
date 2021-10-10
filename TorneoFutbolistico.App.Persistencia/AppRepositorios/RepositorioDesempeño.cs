@@ -60,5 +60,11 @@ namespace TorneoFutbolistico.App.Persistencia
             return desempeñoEncontrado;
         }
 
+        /*IEnumerable<Desempeño> IRepositorioDesempeño.SearchDesempeños(int puntos)
+        {
+            return _appContext.Desempeños
+                        .Where(p => p.Puntos.Contains(puntos));
+        }*/
+
     }
 }

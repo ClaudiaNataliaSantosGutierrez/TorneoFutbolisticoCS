@@ -11,6 +11,7 @@ namespace TorneoFutbolistico.App.Persistencia
         void DeleteDirectorTecnico(int idDirectorTecnico);    
         DirectorTecnico GetDirectorTecnico(int idDirectorTecnico); 
         Equipo AsignarEquipo(int idDirectorTecnico, int idEquipo);
+        IEnumerable<DirectorTecnico> SearchDirectoresTecnicos(string nombre);
     }
 }
 
