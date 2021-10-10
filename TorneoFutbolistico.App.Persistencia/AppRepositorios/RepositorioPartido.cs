@@ -97,6 +97,12 @@ namespace TorneoFutbolistico.App.Persistencia
             }
             return null;
         }
+
+        IEnumerable<Partido> IRepositorioPartido.SearchPartidos(string fechaHora)
+        {
+            return _appContext.Partidos
+                        .Where(p => p.FechaHora.Contains(fechaHora));
+        }
     }
 }
 

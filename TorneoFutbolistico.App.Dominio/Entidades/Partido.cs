@@ -18,6 +18,6 @@ namespace TorneoFutbolistico.App.Dominio
         [Required(ErrorMessage = "El MarcadorVisitante es obligatorio")]
         public int MarcadorVisitante { get; set; }
         public Estadio Estadio { get; set; }
-        public Arbitro Arbitro { get; set; }
+        public Arbitro Arbitro { get; set; }//
     }
 }

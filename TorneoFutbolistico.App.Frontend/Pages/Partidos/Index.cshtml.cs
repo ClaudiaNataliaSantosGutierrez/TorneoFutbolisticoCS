@@ -13,13 +13,24 @@ namespace TorneoFutbolistico.App.Frontend.Pages.Partidos
     {
         private readonly IRepositorioPartido _repoPartido;
         public IEnumerable<Partido> Partidos {get; set;}
+        public string bActual {get; set;}
         public IndexModel(IRepositorioPartido repoPartido)
         {
             _repoPartido = repoPartido;
         }
-        public void OnGet()
+        public void OnGet(string b)
         {
-            Partidos = _repoPartido.GetAllPartidos();
+            if(string.IsNullOrEmpty(b))
+            {
+                bActual = "";
+                Partidos = _repoPartido.GetAllPartidos();
+            }
+            else
+            {
+                bActual = b;
+                Partidos = _repoPartido.SearchPartidos(b);
+            }
+            //Partidos = _repoPartido.GetAllPartidos();
         }
     }
 }

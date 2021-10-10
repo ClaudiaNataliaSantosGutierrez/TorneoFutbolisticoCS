@@ -12,5 +12,6 @@ namespace TorneoFutbolistico.App.Persistencia
         Partido GetPartido(int idpartido);
         Estadio AsignarEstadio(int idPartido, int idEstadio);
         Arbitro AsignarArbitro(int idPartido, int idArbitro);
+        IEnumerable<Partido> SearchPartidos(string fechaHora);
     }
 }
