@@ -56,9 +56,13 @@ namespace TorneoFutbolistico.App.Persistencia
                 _appContext.SaveChanges();
             }
             return arbitroEncontrado;
+        }
 
-
-
+        IEnumerable<Arbitro> IRepositorioArbitro.SearchArbitros(string nombre)
+        {
+            return _appContext.Arbitros
+                        .Where(p => p.Nombre.Contains(nombre));
+        }
 
 
 /*        public RepositorioArbitro(AppContext appContext)
@@ -108,6 +112,5 @@ namespace TorneoFutbolistico.App.Persistencia
                 _appContext.SaveChanges();
             }
             return arbitroEncontrado;*/
-        }
     }
 }
