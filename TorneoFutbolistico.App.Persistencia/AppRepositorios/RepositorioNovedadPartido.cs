@@ -57,6 +57,12 @@ namespace TorneoFutbolistico.App.Persistencia
             }
             return novedadPartidoEncontrado;
         }
+
+        IEnumerable<NovedadPartido> IRepositorioNovedadPartido.SearchNovedadesPartido(string novedad)
+        {
+            return _appContext.NovedadesPartido
+                        .Where(p => p.Novedad.Contains(novedad));
+        }
     }
 }
 

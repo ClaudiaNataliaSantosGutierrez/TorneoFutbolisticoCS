@@ -13,13 +13,24 @@ namespace TorneoFutbolistico.App.Frontend.Pages.NovedadesPartidos
     {
         private readonly IRepositorioNovedadPartido _repoNovedadPartido;
         public IEnumerable<NovedadPartido> NovedadesPartido {get; set;}
+        public string bActual {get; set;}
         public IndexModel(IRepositorioNovedadPartido repoNovedadPartido)
         {
             _repoNovedadPartido = repoNovedadPartido;
         }
-        public void OnGet()
+        public void OnGet(string b)
         {
-            NovedadesPartido = _repoNovedadPartido.GetAllNovedadesPartido();
+            if(string.IsNullOrEmpty(b))
+            {
+                bActual = "";
+                NovedadesPartido = _repoNovedadPartido.GetAllNovedadesPartido();
+            }
+            else
+            {
+                bActual = b;
+                NovedadesPartido = _repoNovedadPartido.SearchNovedadesPartido(b);
+            }
+            //NovedadesPartido = _repoNovedadPartido.GetAllNovedadesPartido();
         }
     }
 }

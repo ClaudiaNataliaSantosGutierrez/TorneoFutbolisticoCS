@@ -10,5 +10,6 @@ namespace TorneoFutbolistico.App.Persistencia
         NovedadPartido UpdateNovedadPartido(NovedadPartido novedadPartido);
         void DeleteNovedadPartido(int idNovedadPartido);    
         NovedadPartido GetNovedadPartido(int idNovedadPartido);
-    }//
+        IEnumerable<NovedadPartido> SearchNovedadesPartido(string novedad);
+    }
 }
