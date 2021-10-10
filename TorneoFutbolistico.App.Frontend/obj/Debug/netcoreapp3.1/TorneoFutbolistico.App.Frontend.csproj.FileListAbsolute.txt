@@ -565,3 +565,4 @@ C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutb
 C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutbol\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\TorneoFutbolistico.App.Frontend.genruntimeconfig.cache
 C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutbol\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\DirectoresTecnicos\AddEquipo.cshtml.g.cs
 C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutbol\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Equipos\AddDesempeño.cshtml.g.cs
+C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutbol\TorneoFutbolisticoCS\TorneoFutbolistico.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Jugadores\AddEquipo.cshtml.g.cs

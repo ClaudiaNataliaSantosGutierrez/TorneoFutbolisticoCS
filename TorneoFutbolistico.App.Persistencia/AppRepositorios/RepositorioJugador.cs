@@ -65,5 +65,21 @@ namespace TorneoFutbolistico.App.Persistencia
             }
             return jugadorEncontrado;
         }
+
+        Equipo IRepositorioJugador.AsignarEquipo(int idJugador, int idEquipo)
+        {
+            var jugadorEncontrado = _appContext.Jugadores.FirstOrDefault(m => m.id == idJugador);
+            if (jugadorEncontrado != null)
+            {
+                var equipoEncontrado = _appContext.Equipos.FirstOrDefault(p => p.Id == idEquipo);   //FirstOrDefault(m => m.Id == idEquipo);Find(idEquipo);
+                if (equipoEncontrado != null)
+                {
+                    jugadorEncontrado.Equipo = equipoEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return equipoEncontrado;
+            }
+            return null;
+        }
     }
 }
