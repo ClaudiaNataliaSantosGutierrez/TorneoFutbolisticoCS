@@ -67,5 +67,11 @@ namespace TorneoFutbolistico.App.Persistencia
             }
             return null;
         }
+
+        IEnumerable<Municipio> IRepositorioMunicipio.SearchMunicipios(string nombreMunicipio)
+        {
+            return _appContext.Municipios
+                        .Where(p => p.NombreMunicipio.Contains(nombreMunicipio));
+        }
     }
 }

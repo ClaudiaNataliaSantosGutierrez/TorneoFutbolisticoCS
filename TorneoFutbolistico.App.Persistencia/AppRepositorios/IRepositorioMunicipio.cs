@@ -11,6 +11,7 @@ namespace TorneoFutbolistico.App.Persistencia
         void DeleteMunicipio(int idMunicipio);    
         Municipio GetMunicipio(int idMunicipio);
         Equipo AsignarEquipo(int idMunicipio, int idEquipo);
+        IEnumerable<Municipio> SearchMunicipios(string municipio);
     }
 }
 
