@@ -25,12 +25,30 @@
         <td>@Model.partido.MarcadorVisitante</td>
     </tr>
     <tr>
-        <th scope="col">IdEstadio</th>
-        <td>@Model.partido.Id</td>
+        <th scope="col">Estadio</th>
+        @if(Model.partido.Estadio == null)
+        {
+            <td>
+                <a class="btn btn-primary" asp-page="./AddEstadio" asp-route-Id="@Model.partido.Id">Asignar Estadio</a>
+            </td>
+        }
+        else
+        {
+            <td>@Model.partido.Estadio.NombreEstadio</td>
+        }
     </tr>
     <tr>
-        <th scope="col">IdArbitro</th>
-        <td>@Model.partido.Id</td>
+        <th scope="col">Arbitro</th>
+        @if(Model.partido.Arbitro == null)
+        {
+            <td>
+                <a class="btn btn-primary" asp-page="./AddArbitro" asp-route-Id="@Model.partido.Id">Asignar Arbitro</a>
+            </td>
+        }
+        else
+        {
+            <td>@Model.partido.Arbitro.Nombre</td>
+        }
     </tr>
 </table>
 <a class="btn btn-primary" asp-page="./Index">Volver</a>

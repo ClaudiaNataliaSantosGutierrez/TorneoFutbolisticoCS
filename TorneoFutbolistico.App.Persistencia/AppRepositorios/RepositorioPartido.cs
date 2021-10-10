@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using TorneoFutbolistico.App.Dominio;
 
@@ -31,7 +32,19 @@ namespace TorneoFutbolistico.App.Persistencia
 
         Partido IRepositorioPartido.GetPartido(int idPartido)
         {
-            return _appContext.Partidos.Find(idPartido);    //p => p.Id==idPaciente
+            var partido = _appContext.Partidos
+                      .Where(p => p.Id==idPartido)
+                      .Include(p => p.Estadio)
+                      .Include(p => p.Arbitro)
+                      .FirstOrDefault();
+            return partido;
+
+            /*var partido = _appContext.Partidos
+                      .Where(p => p.Id==idPartido)
+                      .Include(p => p.Arbitro)
+                      .FirstOrDefault();
+            return partido;*/
+            //return _appContext.Partidos.Find(idPartido);    //p => p.Id==idPaciente
         }
 
         Partido IRepositorioPartido.UpdatePartido(Partido partido)

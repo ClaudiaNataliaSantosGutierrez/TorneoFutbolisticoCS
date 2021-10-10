@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using TorneoFutbolistico.App.Dominio;
 
@@ -31,7 +32,12 @@ namespace TorneoFutbolistico.App.Persistencia
 
         DirectorTecnico IRepositorioDirectorTecnico.GetDirectorTecnico(int idDirectorTecnico)
         {
-            return _appContext.DirectoresTecnicos.Find(idDirectorTecnico);    ///p => p.Id==idPaciente
+            var directorTecnico = _appContext.DirectoresTecnicos
+                      .Where(p => p.id==idDirectorTecnico)
+                      .Include(p => p.Equipo)
+                      .FirstOrDefault();
+            return directorTecnico;
+            //return _appContext.DirectoresTecnicos.Find(idDirectorTecnico);    ///p => p.Id==idPaciente
         }
 
         DirectorTecnico IRepositorioDirectorTecnico.UpdateDirectorTecnico(DirectorTecnico directorTecnico)
@@ -47,6 +53,22 @@ namespace TorneoFutbolistico.App.Persistencia
                 _appContext.SaveChanges();
             }
             return directorTecnicoEncontrado;
+        }
+
+        Equipo IRepositorioDirectorTecnico.AsignarEquipo(int idDirectorTecnico, int idEquipo)
+        {
+            var directorTecnicoEncontrado = _appContext.DirectoresTecnicos.FirstOrDefault(m => m.id == idDirectorTecnico);
+            if (directorTecnicoEncontrado != null)
+            {
+                var equipoEncontrado = _appContext.Equipos.FirstOrDefault(p => p.Id == idEquipo);   //FirstOrDefault(m => m.Id == idEquipo);Find(idEquipo);
+                if (equipoEncontrado != null)
+                {
+                    directorTecnicoEncontrado.Equipo = equipoEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return equipoEncontrado;
+            }
+            return null;
         }
         
     }

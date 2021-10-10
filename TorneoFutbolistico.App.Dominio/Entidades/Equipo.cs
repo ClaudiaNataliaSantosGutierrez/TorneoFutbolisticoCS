@@ -12,6 +12,6 @@ namespace TorneoFutbolistico.App.Dominio
         //public DirectorTecnico DirectorTecnico { get; set; }
         public Desempeño Desempeño { get; set; }
         ///public Jugador Jugador { get; set; }
-        //public Municipio Municipio { get; set; }
+        ///public Municipio Municipio { get; set; }
     }
 }

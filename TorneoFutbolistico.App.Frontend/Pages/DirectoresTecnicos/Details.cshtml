@@ -24,5 +24,18 @@
         <th scope="col">Id_DS</th>
         <td>@Model.directorTecnico.Id_DS</td>
     </tr>
+    <tr>
+        <th scope="col">Equipo</th>
+        @if(Model.directorTecnico.Equipo == null)
+        {
+            <td>
+                <a class="btn btn-primary" asp-page="./AddEquipo" asp-route-id="@Model.directorTecnico.id">Asignar Equipo</a>
+            </td>
+        }
+        else
+        {
+            <td>@Model.directorTecnico.Equipo.NombreEquipo</td>
+        }
+    </tr>
 </table>
 <a class="btn btn-primary" asp-page="./Index">Volver</a>

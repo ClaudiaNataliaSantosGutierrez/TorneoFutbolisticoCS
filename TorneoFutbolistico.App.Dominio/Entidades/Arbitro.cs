@@ -7,6 +7,6 @@ namespace TorneoFutbolistico.App.Dominio
         public int Id_A { get; set; }
         [Required(ErrorMessage = "El nombre del Colegio es obligatorio")]
         public string Colegio { get; set; }
-        //public Partido Partido { get; set; }
+        ///public Partido Partido { get; set; }
     }
 }

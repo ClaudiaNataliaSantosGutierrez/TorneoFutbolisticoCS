@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using TorneoFutbolistico.App.Dominio;
 
@@ -31,7 +32,12 @@ namespace TorneoFutbolistico.App.Persistencia
 
         Municipio IRepositorioMunicipio.GetMunicipio(int idMunicipio)
         {
-            return _appContext.Municipios.Find(idMunicipio);    //p => p.Id==idPaciente
+            var municipio = _appContext.Municipios
+                      .Where(p => p.Id==idMunicipio)
+                      .Include(p => p.Equipo)
+                      .FirstOrDefault();
+            return municipio;
+            //return _appContext.Municipios.Find(idMunicipio);    //p => p.Id==idPaciente
         }
 
         Municipio IRepositorioMunicipio.UpdateMunicipio(Municipio municipio)

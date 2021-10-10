@@ -9,8 +9,17 @@
         <td>@Model.equipo.NombreEquipo</td>
     </tr>
     <tr>
-        <th scope="col">DesempeñoId</th>
-        <td>@Model.equipo.Id</td>
+        <th scope="col">Desempeño</th>
+        @if(Model.equipo.Desempeño == null)
+        {
+            <td>
+                <a class="btn btn-primary" asp-page="./AddDesempeño" asp-route-Id="@Model.equipo.Id">Asignar Desempeño</a>
+            </td>
+        }
+        else
+        {
+            <td>@Model.equipo.Desempeño.Puntos</td>
+        }
     </tr>
 </table>
 <a class="btn btn-primary" asp-page="./Index">Volver</a>

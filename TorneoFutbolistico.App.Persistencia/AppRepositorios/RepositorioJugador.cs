@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 using TorneoFutbolistico.App.Dominio;
 
 namespace TorneoFutbolistico.App.Persistencia
@@ -36,7 +38,12 @@ namespace TorneoFutbolistico.App.Persistencia
 
         public Jugador GetJugador(int idJugador)
         {
-            return _appContext.Jugadores.Find(idJugador);
+            var jugador = _appContext.Jugadores
+                      .Where(p => p.id==idJugador)
+                      .Include(p => p.Equipo)
+                      .FirstOrDefault();
+            return jugador;
+            //return _appContext.Jugadores.Find(idJugador);
         }
 
         public Jugador UpdateJugador(Jugador jugador)
