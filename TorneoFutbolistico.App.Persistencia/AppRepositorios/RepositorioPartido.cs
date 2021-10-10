@@ -68,7 +68,7 @@ namespace TorneoFutbolistico.App.Persistencia
 
         Estadio IRepositorioPartido.AsignarEstadio(int idPartido, int idEstadio)
         {
-            var partidoEncontrado = _appContext.Partidos.FirstOrDefault(m => m.Id == idPartido);  //FirstOrDefault(p => p.Id == idDesempeño);Find(idDesempeño);
+            var partidoEncontrado = _appContext.Partidos.FirstOrDefault(m => m.Id == idPartido);  ///FirstOrDefault(p => p.Id == idDesempeño);Find(idDesempeño);
             if (partidoEncontrado != null)
             {
                 var estadioEncontrado = _appContext.Estadios.FirstOrDefault(p => p.Id == idEstadio);   //FirstOrDefault(m => m.Id == idEquipo);Find(idEquipo);
