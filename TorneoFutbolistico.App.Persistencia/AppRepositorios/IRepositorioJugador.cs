@@ -13,5 +13,6 @@ namespace TorneoFutbolistico.App.Persistencia
         void DeleteJugador(int idJugador);    
         Jugador GetJugador(int idJugador);
         Equipo AsignarEquipo(int idJugador, int idEquipo);
+        IEnumerable<Jugador> SearchJugadores(string nombre);
     }
 }
