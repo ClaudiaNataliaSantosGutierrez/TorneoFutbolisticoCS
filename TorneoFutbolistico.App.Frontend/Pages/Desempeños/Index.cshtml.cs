@@ -13,6 +13,7 @@ namespace TorneoFutbolistico.App.Frontend.Pages.Desempeños
     {
         private readonly IRepositorioDesempeño _repoDesempeño;
         public IEnumerable<Desempeño> Desempeños {get; set;}
+        //public string bActual {get; set;}
         public IndexModel(IRepositorioDesempeño repoDesempeño)
         {
             _repoDesempeño = repoDesempeño;

@@ -11,7 +11,7 @@ namespace TorneoFutbolistico.App.Persistencia
         void DeleteDesempeño(int idDesempeño);    
         Desempeño GetDesempeño(int idDesempeño);
         //IEnumerable<Desempeño> SearchDesempeños(int puntos);
-        //Equipo AsignarEquipo(int idDesempeño, int idEquipo);
+        ///Equipo AsignarEquipo(int idDesempeño, int idEquipo);
         ///Desempeño AsignarDesempeño(int idEquipo, int idDesempeño);
     }
 }
