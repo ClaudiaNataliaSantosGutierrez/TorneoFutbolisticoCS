@@ -3,8 +3,12 @@
 @{
 }
 <h1>Listado de Desempeños</h1>
+@if (User.Identity.IsAuthenticated)
+{
+    <a class="btn btn-primary" asp-page="./Create" >Nuevo Desempeño</a>
+}
 <td>
-                <a class="btn btn-primary" asp-page="./Create" >Nuevo Desempeño</a>
+                @*<a class="btn btn-primary" asp-page="./Create" >Nuevo Desempeño</a>*@
                 <table class="table"></table>
               </td>
 <table class="table">
@@ -31,7 +35,11 @@
               <td>@Desempeño.Puntos</td>
               <td>
                 <a class="btn btn-primary" asp-page="./Details" asp-route-Id="@Desempeño.Id">Detalle</a>
-                <a class="btn btn-primary" asp-page="./Edit" asp-route-Id="@Desempeño.Id">Editar</a>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a class="btn btn-primary" asp-page="./Edit" asp-route-Id="@Desempeño.Id">Editar</a>
+                }
+                @*<a class="btn btn-primary" asp-page="./Edit" asp-route-Id="@Desempeño.Id">Editar</a>*@
                 
               </td>
           </tr>

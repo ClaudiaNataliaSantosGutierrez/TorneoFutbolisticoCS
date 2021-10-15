@@ -11,8 +11,12 @@
 </form>
 
 <h1>Listado de DirectoresTecnicos</h1>
+@if (User.Identity.IsAuthenticated)
+{
+    <a class="btn btn-primary" asp-page="./Create" >Nuevo Director Tecnico</a>
+}
 <td>
-                <a class="btn btn-primary" asp-page="./Create" >Nuevo Director Tecnico</a>
+                @*<a class="btn btn-primary" asp-page="./Create" >Nuevo Director Tecnico</a>*@
                 <table class="table"></table>
               </td>          
 <table class="table">
@@ -33,7 +37,11 @@
               <td>@DirectorTecnico.NumeroTelefono</td>
               <td>
                 <a class="btn btn-primary" asp-page="./Details" asp-route-id="@DirectorTecnico.id">Detalle</a>
-                <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@DirectorTecnico.id">Editar</a>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@DirectorTecnico.id">Editar</a>
+                }
+                @*<a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@DirectorTecnico.id">Editar</a>*@
               </td>
           </tr>
       }

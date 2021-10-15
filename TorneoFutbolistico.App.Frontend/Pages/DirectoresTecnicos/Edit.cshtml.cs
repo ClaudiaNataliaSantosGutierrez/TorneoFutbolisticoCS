@@ -6,9 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using TorneoFutbolistico.App.Persistencia;
 using TorneoFutbolistico.App.Dominio;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace TorneoFutbolistico.App.Frontend.Pages.DirectoresTecnicos
 {
+    [Authorize]
     public class EditModel : PageModel
     {
         private readonly IRepositorioDirectorTecnico _repoDirectorTecnico;

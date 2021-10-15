@@ -2,3 +2,12 @@ C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Dominio\obj\Debug\netsta
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.AssemblyInfoInputs.cache
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.AssemblyInfo.cs
 C:\Torneo\TorneoFutbolistico.App\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutbol\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\bin\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.deps.json
+C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutbol\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\bin\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.dll
+C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutbol\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\bin\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.pdb
+C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutbol\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.csprojAssemblyReference.cache
+C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutbol\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutbol\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutbol\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutbol\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.dll
+C:\Users\Carlos\Desktop\Misiontic 2020 UCALDAS\DESARROLLO DE SOFTWARE\TorneoFutbol\TorneoFutbolisticoCS\TorneoFutbolistico.App.Dominio\obj\Debug\netstandard2.1\TorneoFutbolistico.App.Dominio.pdb

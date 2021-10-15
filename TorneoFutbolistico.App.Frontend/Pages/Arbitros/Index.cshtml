@@ -11,8 +11,13 @@
 </form>
 
 <h1>Listado de Arbitros</h1>
+@if (User.Identity.IsAuthenticated)
+{
+    <a class="btn btn-primary" asp-page="./Create" >Nuevo Arbitro</a>
+}
 <td>
-                <a class="btn btn-primary" asp-page="./Create" >Nuevo Arbitro</a>
+<td>
+                @*<a class="btn btn-primary" asp-page="./Create" >Nuevo Arbitro</a>*@
                 <table class="table"></table>
               </td>
 <table class="table">
@@ -33,7 +38,11 @@
               <td>@Arbitro.NumeroTelefono</td>
               <td>
                 <a class="btn btn-primary" asp-page="./Details" asp-route-id="@Arbitro.id">Detalle</a>
-                <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@Arbitro.id">Editar</a>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@Arbitro.id">Editar</a>
+                }
+                @*<a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@Arbitro.id">Editar</a>*@
               </td>
           </tr>
       }

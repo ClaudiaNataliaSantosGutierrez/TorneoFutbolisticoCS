@@ -11,8 +11,12 @@
 </form>
 
 <h1>Lista de Partidos</h1>
+@if (User.Identity.IsAuthenticated)
+{
+    <a class="btn btn-primary" asp-page="./Create" >Nuevo Partido</a>
+}
 <td>
-                <a class="btn btn-primary" asp-page="./Create" >Nuevo Partido</a>
+                @*<a class="btn btn-primary" asp-page="./Create" >Nuevo Partido</a>*@
                 <table class="table"></table>
               </td>
 <table class="table">
@@ -37,7 +41,11 @@
                 <a class="btn btn-primary" asp-page="./Details" asp-route-Id="@Partido.Id">
                   Detalle
                 </a>
-                <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@Partido.Id">Editar</a>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@Partido.Id">Editar</a>
+                }
+                @*<a class="btn btn-primary" asp-page="./Edit" asp-route-id="@Partido.Id">Editar</a>*@
               </td>
           </tr>
       }
